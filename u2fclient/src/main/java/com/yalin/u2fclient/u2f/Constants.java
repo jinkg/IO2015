@@ -1,0 +1,19 @@
+package com.yalin.u2fclient.u2f;
+
+public interface Constants {
+
+    int MESSAGE_CONNECT_START = 10001;
+    int MESSAGE_CONNECT = 10002;
+    int MESSAGE_CONNECT_LOST = 10003;
+    int MESSAGE_CONNECT_FAILED = 10004;
+
+    int MESSAGE_REGISTER_RESULT = 10005;
+    int MESSAGE_VERIFY_RESULT = 10006;
+    int MESSAGE_USER_ACTION = 10007;
+    int MESSAGE_ACTION_RESULT = 10008;
+    int MESSAGE_DATA_ERROR = 10009;
+
+    int MESSAGE_BLUETOOTH_DEVICE_FIND = 10010;
+
+    String DEVICE_NAME = "device_name";
+}

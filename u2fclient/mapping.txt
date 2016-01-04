@@ -1,0 +1,1713 @@
+com.google.gson.ExclusionStrategy -> com.google.gson.a:
+    boolean shouldSkipField(com.google.gson.FieldAttributes) -> a
+    boolean shouldSkipClass(java.lang.Class) -> a
+com.google.gson.FieldAttributes -> com.google.gson.b:
+    java.lang.reflect.Field field -> a
+    44:47:void <init>(java.lang.reflect.Field) -> <init>
+com.google.gson.FieldNamingPolicy -> com.google.gson.c:
+    com.google.gson.FieldNamingPolicy IDENTITY -> a
+    com.google.gson.FieldNamingPolicy UPPER_CAMEL_CASE -> b
+    com.google.gson.FieldNamingPolicy UPPER_CAMEL_CASE_WITH_SPACES -> c
+    com.google.gson.FieldNamingPolicy LOWER_CASE_WITH_UNDERSCORES -> d
+    com.google.gson.FieldNamingPolicy LOWER_CASE_WITH_DASHES -> e
+    com.google.gson.FieldNamingPolicy[] $VALUES -> f
+    30:30:com.google.gson.FieldNamingPolicy[] values() -> values
+    30:30:com.google.gson.FieldNamingPolicy valueOf(java.lang.String) -> valueOf
+    30:30:void <init>(java.lang.String,int) -> <init>
+    123:131:java.lang.String separateCamelCase(java.lang.String,java.lang.String) -> b
+    138:159:java.lang.String upperCaseFirstLetter(java.lang.String) -> b
+    164:164:java.lang.String modifyString(char,java.lang.String,int) -> a
+    30:30:void <init>(java.lang.String,int,com.google.gson.FieldNamingPolicy$1) -> <init>
+    30:30:java.lang.String access$100(java.lang.String) -> a
+    30:30:java.lang.String access$200(java.lang.String,java.lang.String) -> a
+    30:112:void <clinit>() -> <clinit>
+com.google.gson.FieldNamingPolicy$1 -> com.google.gson.d:
+    36:36:void <init>(java.lang.String,int) -> <init>
+    38:38:java.lang.String translateName(java.lang.reflect.Field) -> a
+com.google.gson.FieldNamingPolicy$2 -> com.google.gson.e:
+    52:52:void <init>(java.lang.String,int) -> <init>
+    54:54:java.lang.String translateName(java.lang.reflect.Field) -> a
+com.google.gson.FieldNamingPolicy$3 -> com.google.gson.f:
+    71:71:void <init>(java.lang.String,int) -> <init>
+    73:73:java.lang.String translateName(java.lang.reflect.Field) -> a
+com.google.gson.FieldNamingPolicy$4 -> com.google.gson.g:
+    89:89:void <init>(java.lang.String,int) -> <init>
+    91:91:java.lang.String translateName(java.lang.reflect.Field) -> a
+com.google.gson.FieldNamingPolicy$5 -> com.google.gson.h:
+    112:112:void <init>(java.lang.String,int) -> <init>
+    114:114:java.lang.String translateName(java.lang.reflect.Field) -> a
+com.google.gson.FieldNamingStrategy -> com.google.gson.i:
+    java.lang.String translateName(java.lang.reflect.Field) -> a
+com.google.gson.Gson -> com.google.gson.j:
+    java.lang.ThreadLocal calls -> c
+    java.util.Map typeTokenCache -> d
+    java.util.List factories -> e
+    com.google.gson.internal.ConstructorConstructor constructorConstructor -> f
+    boolean serializeNulls -> g
+    boolean htmlSafe -> h
+    boolean generateNonExecutableJson -> i
+    boolean prettyPrinting -> j
+    com.google.gson.JsonDeserializationContext deserializationContext -> a
+    com.google.gson.JsonSerializationContext serializationContext -> b
+    176:180:void <init>() -> <init>
+    111:247:void <init>(com.google.gson.internal.Excluder,com.google.gson.FieldNamingStrategy,java.util.Map,boolean,boolean,boolean,boolean,boolean,boolean,com.google.gson.LongSerializationPolicy,java.util.List) -> <init>
+    250:253:com.google.gson.TypeAdapter doubleAdapter(boolean) -> a
+    274:277:com.google.gson.TypeAdapter floatAdapter(boolean) -> b
+    298:303:void checkValidFloatingPoint(double) -> a
+    306:309:com.google.gson.TypeAdapter longAdapter(com.google.gson.LongSerializationPolicy) -> a
+    335:371:com.google.gson.TypeAdapter getAdapter(com.google.gson.reflect.TypeToken) -> a
+    423:442:com.google.gson.TypeAdapter getDelegateAdapter(com.google.gson.TypeAdapterFactory,com.google.gson.reflect.TypeToken) -> a
+    452:452:com.google.gson.TypeAdapter getAdapter(java.lang.Class) -> a
+    511:514:java.lang.String toJson(java.lang.Object) -> a
+    533:535:java.lang.String toJson(java.lang.Object,java.lang.reflect.Type) -> a
+    578:583:void toJson(java.lang.Object,java.lang.reflect.Type,java.lang.Appendable) -> a
+    592:608:void toJson(java.lang.Object,java.lang.reflect.Type,com.google.gson.stream.JsonWriter) -> a
+    618:620:java.lang.String toJson(com.google.gson.JsonElement) -> a
+    633:638:void toJson(com.google.gson.JsonElement,java.lang.Appendable) -> a
+    645:653:com.google.gson.stream.JsonWriter newJsonWriter(java.io.Writer) -> a
+    661:676:void toJson(com.google.gson.JsonElement,com.google.gson.stream.JsonWriter) -> a
+    905:905:java.lang.String toString() -> toString
+    99:99:void access$000(com.google.gson.Gson,double) -> a
+com.google.gson.Gson$1 -> com.google.gson.k:
+    com.google.gson.Gson this$0 -> a
+    125:125:void <init>(com.google.gson.Gson) -> <init>
+com.google.gson.Gson$2 -> com.google.gson.l:
+    com.google.gson.Gson this$0 -> a
+    132:132:void <init>(com.google.gson.Gson) -> <init>
+com.google.gson.Gson$3 -> com.google.gson.m:
+    com.google.gson.Gson this$0 -> a
+    253:253:void <init>(com.google.gson.Gson) -> <init>
+    262:269:void write(com.google.gson.stream.JsonWriter,java.lang.Number) -> a
+    253:253:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.Gson$4 -> com.google.gson.n:
+    com.google.gson.Gson this$0 -> a
+    277:277:void <init>(com.google.gson.Gson) -> <init>
+    286:293:void write(com.google.gson.stream.JsonWriter,java.lang.Number) -> a
+    277:277:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.Gson$5 -> com.google.gson.o:
+    com.google.gson.Gson this$0 -> a
+    309:309:void <init>(com.google.gson.Gson) -> <init>
+    318:323:void write(com.google.gson.stream.JsonWriter,java.lang.Number) -> a
+    309:309:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.Gson$FutureTypeAdapter -> com.google.gson.p:
+    com.google.gson.TypeAdapter delegate -> a
+    878:878:void <init>() -> <init>
+    882:886:void setDelegate(com.google.gson.TypeAdapter) -> a
+    896:900:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.InstanceCreator -> com.google.gson.q:
+    java.lang.Object createInstance(java.lang.reflect.Type) -> a
+com.google.gson.JsonArray -> com.google.gson.r:
+    java.util.List elements -> a
+    39:41:void <init>() -> <init>
+    58:62:void add(com.google.gson.JsonElement) -> a
+    135:135:java.util.Iterator iterator() -> iterator
+    160:163:java.lang.Number getAsNumber() -> a
+    176:179:java.lang.String getAsString() -> b
+    322:325:boolean getAsBoolean() -> c
+    330:330:boolean equals(java.lang.Object) -> equals
+    335:335:int hashCode() -> hashCode
+com.google.gson.JsonDeserializationContext -> com.google.gson.s:
+com.google.gson.JsonElement -> com.google.gson.t:
+    33:33:void <init>() -> <init>
+    46:46:boolean isJsonArray() -> d
+    55:55:boolean isJsonObject() -> e
+    64:64:boolean isJsonPrimitive() -> f
+    74:74:boolean isJsonNull() -> g
+    87:90:com.google.gson.JsonObject getAsJsonObject() -> h
+    103:106:com.google.gson.JsonArray getAsJsonArray() -> i
+    119:122:com.google.gson.JsonPrimitive getAsJsonPrimitive() -> j
+    152:152:boolean getAsBoolean() -> c
+    165:165:java.lang.Boolean getAsBooleanWrapper() -> k
+    178:178:java.lang.Number getAsNumber() -> a
+    191:191:java.lang.String getAsString() -> b
+    321:327:java.lang.String toString() -> toString
+com.google.gson.JsonIOException -> com.google.gson.u:
+    long serialVersionUID -> serialVersionUID
+    29:30:void <init>(java.lang.String) -> <init>
+    43:44:void <init>(java.lang.Throwable) -> <init>
+com.google.gson.JsonNull -> com.google.gson.v:
+    com.google.gson.JsonNull INSTANCE -> a
+    39:41:void <init>() -> <init>
+    53:53:int hashCode() -> hashCode
+    61:61:boolean equals(java.lang.Object) -> equals
+    32:32:void <clinit>() -> <clinit>
+com.google.gson.JsonObject -> com.google.gson.w:
+    com.google.gson.internal.LinkedTreeMap members -> a
+    32:33:void <init>() -> <init>
+    54:58:void add(java.lang.String,com.google.gson.JsonElement) -> a
+    132:132:java.util.Set entrySet() -> l
+    187:187:boolean equals(java.lang.Object) -> equals
+    193:193:int hashCode() -> hashCode
+com.google.gson.JsonParseException -> com.google.gson.x:
+    long serialVersionUID -> serialVersionUID
+    42:43:void <init>(java.lang.String) -> <init>
+    62:63:void <init>(java.lang.Throwable) -> <init>
+com.google.gson.JsonPrimitive -> com.google.gson.y:
+    java.lang.Class[] PRIMITIVE_TYPES -> a
+    java.lang.Object value -> b
+    46:48:void <init>(java.lang.Boolean) -> <init>
+    55:57:void <init>(java.lang.Number) -> <init>
+    64:66:void <init>(java.lang.String) -> <init>
+    94:104:void setValue(java.lang.Object) -> a
+    112:112:boolean isBoolean() -> l
+    122:122:java.lang.Boolean getAsBooleanWrapper() -> k
+    132:136:boolean getAsBoolean() -> c
+    146:146:boolean isNumber() -> m
+    157:157:java.lang.Number getAsNumber() -> a
+    166:166:boolean isString() -> n
+    176:181:java.lang.String getAsString() -> b
+    274:284:boolean isPrimitiveOrString(java.lang.Object) -> b
+    289:301:int hashCode() -> hashCode
+    306:326:boolean equals(java.lang.Object) -> equals
+    334:339:boolean isIntegral(com.google.gson.JsonPrimitive) -> a
+    35:35:void <clinit>() -> <clinit>
+com.google.gson.JsonSerializationContext -> com.google.gson.z:
+com.google.gson.LongSerializationPolicy -> com.google.gson.aa:
+    com.google.gson.LongSerializationPolicy DEFAULT -> a
+    com.google.gson.LongSerializationPolicy STRING -> b
+    com.google.gson.LongSerializationPolicy[] $VALUES -> c
+    27:27:com.google.gson.LongSerializationPolicy[] values() -> values
+    27:27:com.google.gson.LongSerializationPolicy valueOf(java.lang.String) -> valueOf
+    27:27:void <init>(java.lang.String,int) -> <init>
+    27:27:void <init>(java.lang.String,int,com.google.gson.LongSerializationPolicy$1) -> <init>
+    27:45:void <clinit>() -> <clinit>
+com.google.gson.LongSerializationPolicy$1 -> com.google.gson.ab:
+    34:34:void <init>(java.lang.String,int) -> <init>
+com.google.gson.LongSerializationPolicy$2 -> com.google.gson.ac:
+    45:45:void <init>(java.lang.String,int) -> <init>
+com.google.gson.TypeAdapter -> com.google.gson.ad:
+    119:119:void <init>() -> <init>
+    void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+    229:233:com.google.gson.JsonElement toJsonTree(java.lang.Object) -> a
+com.google.gson.TypeAdapterFactory -> com.google.gson.ae:
+    com.google.gson.TypeAdapter create(com.google.gson.Gson,com.google.gson.reflect.TypeToken) -> a
+com.google.gson.annotations.Expose -> com.google.gson.annotations.a:
+    boolean serialize() -> a
+    boolean deserialize() -> b
+com.google.gson.annotations.JsonAdapter -> com.google.gson.annotations.b:
+    java.lang.Class value() -> a
+com.google.gson.annotations.SerializedName -> com.google.gson.annotations.c:
+    java.lang.String value() -> a
+com.google.gson.annotations.Since -> com.google.gson.annotations.d:
+    double value() -> a
+com.google.gson.annotations.Until -> com.google.gson.annotations.e:
+    double value() -> a
+com.google.gson.internal.$Gson$Preconditions -> com.google.gson.internal.a:
+    34:37:java.lang.Object checkNotNull(java.lang.Object) -> a
+    41:44:void checkArgument(boolean) -> a
+com.google.gson.internal.$Gson$Types -> com.google.gson.internal.b:
+    java.lang.reflect.Type[] EMPTY_TYPE_ARRAY -> a
+    56:56:java.lang.reflect.ParameterizedType newParameterizedTypeWithOwner(java.lang.reflect.Type,java.lang.reflect.Type,java.lang.reflect.Type[]) -> a
+    66:66:java.lang.reflect.GenericArrayType arrayOf(java.lang.reflect.Type) -> a
+    76:76:java.lang.reflect.WildcardType subtypeOf(java.lang.reflect.Type) -> b
+    85:85:java.lang.reflect.WildcardType supertypeOf(java.lang.reflect.Type) -> c
+    94:113:java.lang.reflect.Type canonicalize(java.lang.reflect.Type) -> d
+    118:146:java.lang.Class getRawType(java.lang.reflect.Type) -> e
+    152:152:boolean equal(java.lang.Object,java.lang.Object) -> a
+    159:209:boolean equals(java.lang.reflect.Type,java.lang.reflect.Type) -> a
+    214:214:int hashCodeOrZero(java.lang.Object) -> b
+    218:218:java.lang.String typeToString(java.lang.reflect.Type) -> f
+    227:257:java.lang.reflect.Type getGenericSupertype(java.lang.reflect.Type,java.lang.Class,java.lang.Class) -> a
+    268:269:java.lang.reflect.Type getSupertype(java.lang.reflect.Type,java.lang.Class,java.lang.Class) -> b
+    278:278:java.lang.reflect.Type getArrayComponentType(java.lang.reflect.Type) -> g
+    288:296:java.lang.reflect.Type getCollectionElementType(java.lang.reflect.Type,java.lang.Class) -> a
+    309:319:java.lang.reflect.Type[] getMapKeyAndValueTypes(java.lang.reflect.Type,java.lang.Class) -> b
+    325:389:java.lang.reflect.Type resolve(java.lang.reflect.Type,java.lang.Class,java.lang.reflect.Type) -> a
+    395:408:java.lang.reflect.Type resolveTypeVariable(java.lang.reflect.Type,java.lang.Class,java.lang.reflect.TypeVariable) -> a
+    412:417:int indexOf(java.lang.Object[],java.lang.Object) -> a
+    425:426:java.lang.Class declaringClassOf(java.lang.reflect.TypeVariable) -> a
+    432:433:void checkNotPrimitive(java.lang.reflect.Type) -> i
+    43:43:void access$000(java.lang.reflect.Type) -> h
+    43:43:int access$100(java.lang.Object) -> a
+    44:44:void <clinit>() -> <clinit>
+com.google.gson.internal.$Gson$Types$GenericArrayTypeImpl -> com.google.gson.internal.c:
+    java.lang.reflect.Type componentType -> a
+    long serialVersionUID -> serialVersionUID
+    503:505:void <init>(java.lang.reflect.Type) -> <init>
+    508:508:java.lang.reflect.Type getGenericComponentType() -> getGenericComponentType
+    512:512:boolean equals(java.lang.Object) -> equals
+    517:517:int hashCode() -> hashCode
+    521:521:java.lang.String toString() -> toString
+com.google.gson.internal.$Gson$Types$ParameterizedTypeImpl -> com.google.gson.internal.d:
+    java.lang.reflect.Type ownerType -> a
+    java.lang.reflect.Type rawType -> b
+    java.lang.reflect.Type[] typeArguments -> c
+    long serialVersionUID -> serialVersionUID
+    440:457:void <init>(java.lang.reflect.Type,java.lang.reflect.Type,java.lang.reflect.Type[]) -> <init>
+    460:460:java.lang.reflect.Type[] getActualTypeArguments() -> getActualTypeArguments
+    464:464:java.lang.reflect.Type getRawType() -> getRawType
+    468:468:java.lang.reflect.Type getOwnerType() -> getOwnerType
+    472:472:boolean equals(java.lang.Object) -> equals
+    477:477:int hashCode() -> hashCode
+    483:494:java.lang.String toString() -> toString
+com.google.gson.internal.$Gson$Types$WildcardTypeImpl -> com.google.gson.internal.e:
+    java.lang.reflect.Type upperBound -> a
+    java.lang.reflect.Type lowerBound -> b
+    long serialVersionUID -> serialVersionUID
+    536:553:void <init>(java.lang.reflect.Type[],java.lang.reflect.Type[]) -> <init>
+    556:556:java.lang.reflect.Type[] getUpperBounds() -> getUpperBounds
+    560:560:java.lang.reflect.Type[] getLowerBounds() -> getLowerBounds
+    564:564:boolean equals(java.lang.Object) -> equals
+    570:570:int hashCode() -> hashCode
+    575:580:java.lang.String toString() -> toString
+com.google.gson.internal.ConstructorConstructor -> com.google.gson.internal.f:
+    java.util.Map instanceCreators -> a
+    47:49:void <init>(java.util.Map) -> <init>
+    52:90:com.google.gson.internal.ObjectConstructor get(com.google.gson.reflect.TypeToken) -> a
+    95:119:com.google.gson.internal.ObjectConstructor newDefaultConstructor(java.lang.Class) -> a
+    130:197:com.google.gson.internal.ObjectConstructor newDefaultImplementationConstructor(java.lang.reflect.Type,java.lang.Class) -> a
+    202:202:com.google.gson.internal.ObjectConstructor newUnsafeAllocator(java.lang.reflect.Type,java.lang.Class) -> b
+    218:218:java.lang.String toString() -> toString
+com.google.gson.internal.ConstructorConstructor$1 -> com.google.gson.internal.g:
+    com.google.gson.InstanceCreator val$typeCreator -> a
+    java.lang.reflect.Type val$type -> b
+    com.google.gson.internal.ConstructorConstructor this$0 -> c
+    60:60:void <init>(com.google.gson.internal.ConstructorConstructor,com.google.gson.InstanceCreator,java.lang.reflect.Type) -> <init>
+    62:62:java.lang.Object construct() -> a
+com.google.gson.internal.ConstructorConstructor$10 -> com.google.gson.internal.h:
+    com.google.gson.internal.ConstructorConstructor this$0 -> a
+    183:183:void <init>(com.google.gson.internal.ConstructorConstructor) -> <init>
+    185:185:java.lang.Object construct() -> a
+com.google.gson.internal.ConstructorConstructor$11 -> com.google.gson.internal.i:
+    com.google.gson.internal.ConstructorConstructor this$0 -> a
+    189:189:void <init>(com.google.gson.internal.ConstructorConstructor) -> <init>
+    191:191:java.lang.Object construct() -> a
+com.google.gson.internal.ConstructorConstructor$12 -> com.google.gson.internal.j:
+    com.google.gson.internal.UnsafeAllocator unsafeAllocator -> d
+    java.lang.Class val$rawType -> a
+    java.lang.reflect.Type val$type -> b
+    com.google.gson.internal.ConstructorConstructor this$0 -> c
+    202:203:void <init>(com.google.gson.internal.ConstructorConstructor,java.lang.Class,java.lang.reflect.Type) -> <init>
+    207:210:java.lang.Object construct() -> a
+com.google.gson.internal.ConstructorConstructor$2 -> com.google.gson.internal.k:
+    com.google.gson.InstanceCreator val$rawTypeCreator -> a
+    java.lang.reflect.Type val$type -> b
+    com.google.gson.internal.ConstructorConstructor this$0 -> c
+    72:72:void <init>(com.google.gson.internal.ConstructorConstructor,com.google.gson.InstanceCreator,java.lang.reflect.Type) -> <init>
+    74:74:java.lang.Object construct() -> a
+com.google.gson.internal.ConstructorConstructor$3 -> com.google.gson.internal.l:
+    java.lang.reflect.Constructor val$constructor -> a
+    com.google.gson.internal.ConstructorConstructor this$0 -> b
+    99:99:void <init>(com.google.gson.internal.ConstructorConstructor,java.lang.reflect.Constructor) -> <init>
+    103:114:java.lang.Object construct() -> a
+com.google.gson.internal.ConstructorConstructor$4 -> com.google.gson.internal.m:
+    com.google.gson.internal.ConstructorConstructor this$0 -> a
+    132:132:void <init>(com.google.gson.internal.ConstructorConstructor) -> <init>
+    134:134:java.lang.Object construct() -> a
+com.google.gson.internal.ConstructorConstructor$5 -> com.google.gson.internal.n:
+    java.lang.reflect.Type val$type -> a
+    com.google.gson.internal.ConstructorConstructor this$0 -> b
+    138:138:void <init>(com.google.gson.internal.ConstructorConstructor,java.lang.reflect.Type) -> <init>
+    141:149:java.lang.Object construct() -> a
+com.google.gson.internal.ConstructorConstructor$6 -> com.google.gson.internal.o:
+    com.google.gson.internal.ConstructorConstructor this$0 -> a
+    154:154:void <init>(com.google.gson.internal.ConstructorConstructor) -> <init>
+    156:156:java.lang.Object construct() -> a
+com.google.gson.internal.ConstructorConstructor$7 -> com.google.gson.internal.p:
+    com.google.gson.internal.ConstructorConstructor this$0 -> a
+    160:160:void <init>(com.google.gson.internal.ConstructorConstructor) -> <init>
+    162:162:java.lang.Object construct() -> a
+com.google.gson.internal.ConstructorConstructor$8 -> com.google.gson.internal.q:
+    com.google.gson.internal.ConstructorConstructor this$0 -> a
+    166:166:void <init>(com.google.gson.internal.ConstructorConstructor) -> <init>
+    168:168:java.lang.Object construct() -> a
+com.google.gson.internal.ConstructorConstructor$9 -> com.google.gson.internal.r:
+    com.google.gson.internal.ConstructorConstructor this$0 -> a
+    176:176:void <init>(com.google.gson.internal.ConstructorConstructor) -> <init>
+    178:178:java.lang.Object construct() -> a
+com.google.gson.internal.Excluder -> com.google.gson.internal.s:
+    com.google.gson.internal.Excluder DEFAULT -> a
+    double version -> b
+    int modifiers -> c
+    boolean serializeInnerClasses -> d
+    boolean requireExpose -> e
+    java.util.List serializationStrategies -> f
+    java.util.List deserializationStrategies -> g
+    50:59:void <init>() -> <init>
+    63:65:com.google.gson.internal.Excluder clone() -> a
+    112:120:com.google.gson.TypeAdapter create(com.google.gson.Gson,com.google.gson.reflect.TypeToken) -> a
+    150:188:boolean excludeField(java.lang.reflect.Field,boolean) -> a
+    192:212:boolean excludeClass(java.lang.Class,boolean) -> a
+    216:216:boolean isAnonymousOrLocal(java.lang.Class) -> a
+    221:221:boolean isInnerClass(java.lang.Class) -> b
+    225:225:boolean isStatic(java.lang.Class) -> c
+    229:229:boolean isValidVersion(com.google.gson.annotations.Since,com.google.gson.annotations.Until) -> a
+    233:239:boolean isValidSince(com.google.gson.annotations.Since) -> a
+    243:249:boolean isValidUntil(com.google.gson.annotations.Until) -> a
+    50:50:java.lang.Object clone() -> clone
+    52:52:void <clinit>() -> <clinit>
+com.google.gson.internal.Excluder$1 -> com.google.gson.internal.t:
+    com.google.gson.TypeAdapter delegate -> f
+    boolean val$skipDeserialize -> a
+    boolean val$skipSerialize -> b
+    com.google.gson.Gson val$gson -> c
+    com.google.gson.reflect.TypeToken val$type -> d
+    com.google.gson.internal.Excluder this$0 -> e
+    120:120:void <init>(com.google.gson.internal.Excluder,boolean,boolean,com.google.gson.Gson,com.google.gson.reflect.TypeToken) -> <init>
+    133:138:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+    141:142:com.google.gson.TypeAdapter delegate() -> a
+com.google.gson.internal.LazilyParsedNumber -> com.google.gson.internal.u:
+    java.lang.String value -> a
+    29:31:void <init>(java.lang.String) -> <init>
+    36:41:int intValue() -> intValue
+    49:51:long longValue() -> longValue
+    57:57:float floatValue() -> floatValue
+    62:62:double doubleValue() -> doubleValue
+    67:67:java.lang.String toString() -> toString
+    76:76:java.lang.Object writeReplace() -> writeReplace
+com.google.gson.internal.LinkedTreeMap -> com.google.gson.internal.v:
+    java.util.Comparator NATURAL_ORDER -> g
+    java.util.Comparator comparator -> a
+    com.google.gson.internal.LinkedTreeMap$Node root -> b
+    int size -> c
+    int modCount -> d
+    com.google.gson.internal.LinkedTreeMap$Node header -> e
+    com.google.gson.internal.LinkedTreeMap$EntrySet entrySet -> h
+    com.google.gson.internal.LinkedTreeMap$KeySet keySet -> i
+    boolean $assertionsDisabled -> f
+    60:61:void <init>() -> <init>
+    48:75:void <init>(java.util.Comparator) -> <init>
+    78:78:int size() -> size
+    82:83:java.lang.Object get(java.lang.Object) -> get
+    87:87:boolean containsKey(java.lang.Object) -> containsKey
+    91:97:java.lang.Object put(java.lang.Object,java.lang.Object) -> put
+    101:108:void clear() -> clear
+    111:112:java.lang.Object remove(java.lang.Object) -> remove
+    122:180:com.google.gson.internal.LinkedTreeMap$Node find(java.lang.Object,boolean) -> a
+    186:188:com.google.gson.internal.LinkedTreeMap$Node findByObject(java.lang.Object) -> a
+    202:204:com.google.gson.internal.LinkedTreeMap$Node findByEntry(java.util.Map$Entry) -> a
+    208:208:boolean equal(java.lang.Object,java.lang.Object) -> a
+    218:274:void removeInternal(com.google.gson.internal.LinkedTreeMap$Node,boolean) -> a
+    277:281:com.google.gson.internal.LinkedTreeMap$Node removeInternalByKey(java.lang.Object) -> b
+    285:301:void replaceInParent(com.google.gson.internal.LinkedTreeMap$Node,com.google.gson.internal.LinkedTreeMap$Node) -> a
+    311:368:void rebalance(com.google.gson.internal.LinkedTreeMap$Node,boolean) -> b
+    374:396:void rotateLeft(com.google.gson.internal.LinkedTreeMap$Node) -> a
+    402:424:void rotateRight(com.google.gson.internal.LinkedTreeMap$Node) -> b
+    430:431:java.util.Set entrySet() -> entrySet
+    435:436:java.util.Set keySet() -> keySet
+    625:625:java.lang.Object writeReplace() -> writeReplace
+    38:40:void <clinit>() -> <clinit>
+com.google.gson.internal.LinkedTreeMap$1 -> com.google.gson.internal.w:
+    40:40:void <init>() -> <init>
+    42:42:int compare(java.lang.Comparable,java.lang.Comparable) -> a
+    40:40:int compare(java.lang.Object,java.lang.Object) -> compare
+com.google.gson.internal.LinkedTreeMap$EntrySet -> com.google.gson.internal.x:
+    com.google.gson.internal.LinkedTreeMap this$0 -> a
+    557:557:void <init>(com.google.gson.internal.LinkedTreeMap) -> <init>
+    559:559:int size() -> size
+    563:563:java.util.Iterator iterator() -> iterator
+    571:571:boolean contains(java.lang.Object) -> contains
+    575:584:boolean remove(java.lang.Object) -> remove
+    588:589:void clear() -> clear
+com.google.gson.internal.LinkedTreeMap$EntrySet$1 -> com.google.gson.internal.y:
+    com.google.gson.internal.LinkedTreeMap$EntrySet this$1 -> a
+    563:563:void <init>(com.google.gson.internal.LinkedTreeMap$EntrySet) -> <init>
+    565:565:java.util.Map$Entry next() -> a
+    563:563:java.lang.Object next() -> next
+com.google.gson.internal.LinkedTreeMap$KeySet -> com.google.gson.internal.z:
+    com.google.gson.internal.LinkedTreeMap this$0 -> a
+    592:592:void <init>(com.google.gson.internal.LinkedTreeMap) -> <init>
+    594:594:int size() -> size
+    598:598:java.util.Iterator iterator() -> iterator
+    606:606:boolean contains(java.lang.Object) -> contains
+    610:610:boolean remove(java.lang.Object) -> remove
+    614:615:void clear() -> clear
+com.google.gson.internal.LinkedTreeMap$KeySet$1 -> com.google.gson.internal.aa:
+    com.google.gson.internal.LinkedTreeMap$KeySet this$1 -> a
+    598:598:void <init>(com.google.gson.internal.LinkedTreeMap$KeySet) -> <init>
+    600:600:java.lang.Object next() -> next
+com.google.gson.internal.LinkedTreeMap$LinkedTreeMapIterator -> com.google.gson.internal.ab:
+    com.google.gson.internal.LinkedTreeMap$Node next -> b
+    com.google.gson.internal.LinkedTreeMap$Node lastReturned -> c
+    int expectedModCount -> d
+    com.google.gson.internal.LinkedTreeMap this$0 -> e
+    526:529:void <init>(com.google.gson.internal.LinkedTreeMap) -> <init>
+    532:532:boolean hasNext() -> hasNext
+    536:544:com.google.gson.internal.LinkedTreeMap$Node nextNode() -> b
+    548:554:void remove() -> remove
+    526:526:void <init>(com.google.gson.internal.LinkedTreeMap,com.google.gson.internal.LinkedTreeMap$1) -> <init>
+com.google.gson.internal.LinkedTreeMap$Node -> com.google.gson.internal.ac:
+    com.google.gson.internal.LinkedTreeMap$Node parent -> a
+    com.google.gson.internal.LinkedTreeMap$Node left -> b
+    com.google.gson.internal.LinkedTreeMap$Node right -> c
+    com.google.gson.internal.LinkedTreeMap$Node next -> d
+    com.google.gson.internal.LinkedTreeMap$Node prev -> e
+    java.lang.Object key -> f
+    java.lang.Object value -> g
+    int height -> h
+    450:453:void <init>() -> <init>
+    456:464:void <init>(com.google.gson.internal.LinkedTreeMap$Node,java.lang.Object,com.google.gson.internal.LinkedTreeMap$Node,com.google.gson.internal.LinkedTreeMap$Node) -> <init>
+    467:467:java.lang.Object getKey() -> getKey
+    471:471:java.lang.Object getValue() -> getValue
+    475:477:java.lang.Object setValue(java.lang.Object) -> setValue
+    482:487:boolean equals(java.lang.Object) -> equals
+    491:491:int hashCode() -> hashCode
+    496:496:java.lang.String toString() -> toString
+    503:509:com.google.gson.internal.LinkedTreeMap$Node first() -> a
+    516:522:com.google.gson.internal.LinkedTreeMap$Node last() -> b
+com.google.gson.internal.ObjectConstructor -> com.google.gson.internal.ad:
+    java.lang.Object construct() -> a
+com.google.gson.internal.Primitives -> com.google.gson.internal.ae:
+    java.util.Map PRIMITIVE_TO_WRAPPER_TYPE -> a
+    java.util.Map WRAPPER_TO_PRIMITIVE_TYPE -> b
+    62:64:void add(java.util.Map,java.util.Map,java.lang.Class,java.lang.Class) -> a
+    70:70:boolean isPrimitive(java.lang.reflect.Type) -> a
+    43:58:void <clinit>() -> <clinit>
+com.google.gson.internal.Streams -> com.google.gson.internal.af:
+    68:69:void write(com.google.gson.JsonElement,com.google.gson.stream.JsonWriter) -> a
+    73:73:java.io.Writer writerForAppendable(java.lang.Appendable) -> a
+com.google.gson.internal.Streams$1 -> com.google.gson.internal.ag:
+com.google.gson.internal.Streams$AppendableWriter -> com.google.gson.internal.ah:
+    java.lang.Appendable appendable -> a
+    com.google.gson.internal.Streams$AppendableWriter$CurrentWrite currentWrite -> b
+    82:86:void <init>(java.lang.Appendable) -> <init>
+    89:91:void write(char[],int,int) -> write
+    94:95:void write(int) -> write
+    97:97:void flush() -> flush
+    98:98:void close() -> close
+    80:80:void <init>(java.lang.Appendable,com.google.gson.internal.Streams$1) -> <init>
+com.google.gson.internal.Streams$AppendableWriter$CurrentWrite -> com.google.gson.internal.ai:
+    char[] chars -> a
+    103:103:void <init>() -> <init>
+    106:106:int length() -> length
+    109:109:char charAt(int) -> charAt
+    112:112:java.lang.CharSequence subSequence(int,int) -> subSequence
+com.google.gson.internal.UnsafeAllocator -> com.google.gson.internal.aj:
+    30:30:void <init>() -> <init>
+    java.lang.Object newInstance(java.lang.Class) -> a
+    39:97:com.google.gson.internal.UnsafeAllocator create() -> a
+com.google.gson.internal.UnsafeAllocator$1 -> com.google.gson.internal.ak:
+    java.lang.reflect.Method val$allocateInstance -> a
+    java.lang.Object val$unsafe -> b
+    44:44:void <init>(java.lang.reflect.Method,java.lang.Object) -> <init>
+    48:48:java.lang.Object newInstance(java.lang.Class) -> a
+com.google.gson.internal.UnsafeAllocator$2 -> com.google.gson.internal.al:
+    java.lang.reflect.Method val$newInstance -> a
+    int val$constructorId -> b
+    67:67:void <init>(java.lang.reflect.Method,int) -> <init>
+    71:71:java.lang.Object newInstance(java.lang.Class) -> a
+com.google.gson.internal.UnsafeAllocator$3 -> com.google.gson.internal.am:
+    java.lang.reflect.Method val$newInstance -> a
+    86:86:void <init>(java.lang.reflect.Method) -> <init>
+    90:90:java.lang.Object newInstance(java.lang.Class) -> a
+com.google.gson.internal.UnsafeAllocator$4 -> com.google.gson.internal.an:
+    97:97:void <init>() -> <init>
+    100:100:java.lang.Object newInstance(java.lang.Class) -> a
+com.google.gson.internal.bind.ArrayTypeAdapter -> com.google.gson.internal.bind.a:
+    com.google.gson.TypeAdapterFactory FACTORY -> a
+    java.lang.Class componentType -> b
+    com.google.gson.TypeAdapter componentTypeAdapter -> c
+    57:61:void <init>(com.google.gson.Gson,com.google.gson.TypeAdapter,java.lang.Class) -> <init>
+    85:96:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+    39:39:void <clinit>() -> <clinit>
+com.google.gson.internal.bind.ArrayTypeAdapter$1 -> com.google.gson.internal.bind.b:
+    39:39:void <init>() -> <init>
+    42:49:com.google.gson.TypeAdapter create(com.google.gson.Gson,com.google.gson.reflect.TypeToken) -> a
+com.google.gson.internal.bind.CollectionTypeAdapterFactory -> com.google.gson.internal.bind.c:
+    com.google.gson.internal.ConstructorConstructor constructorConstructor -> a
+    39:41:void <init>(com.google.gson.internal.ConstructorConstructor) -> <init>
+    44:57:com.google.gson.TypeAdapter create(com.google.gson.Gson,com.google.gson.reflect.TypeToken) -> a
+com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter -> com.google.gson.internal.bind.d:
+    com.google.gson.TypeAdapter elementTypeAdapter -> a
+    com.google.gson.internal.ObjectConstructor constructor -> b
+    66:70:void <init>(com.google.gson.Gson,java.lang.reflect.Type,com.google.gson.TypeAdapter,com.google.gson.internal.ObjectConstructor) -> <init>
+    89:99:void write(com.google.gson.stream.JsonWriter,java.util.Collection) -> a
+    60:60:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.DateTypeAdapter -> com.google.gson.internal.bind.e:
+    com.google.gson.TypeAdapterFactory FACTORY -> a
+    java.text.DateFormat enUsFormat -> b
+    java.text.DateFormat localFormat -> c
+    java.text.DateFormat iso8601Format -> d
+    41:53:void <init>() -> <init>
+    56:58:java.text.DateFormat buildIso8601Format() -> a
+    86:92:void write(com.google.gson.stream.JsonWriter,java.util.Date) -> a
+    41:41:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+    42:42:void <clinit>() -> <clinit>
+com.google.gson.internal.bind.DateTypeAdapter$1 -> com.google.gson.internal.bind.f:
+    42:42:void <init>() -> <init>
+    45:45:com.google.gson.TypeAdapter create(com.google.gson.Gson,com.google.gson.reflect.TypeToken) -> a
+com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory -> com.google.gson.internal.bind.g:
+    com.google.gson.internal.ConstructorConstructor constructorConstructor -> a
+    36:38:void <init>(com.google.gson.internal.ConstructorConstructor) -> <init>
+    42:46:com.google.gson.TypeAdapter create(com.google.gson.Gson,com.google.gson.reflect.TypeToken) -> a
+    52:64:com.google.gson.TypeAdapter getTypeAdapter(com.google.gson.internal.ConstructorConstructor,com.google.gson.Gson,com.google.gson.reflect.TypeToken,com.google.gson.annotations.JsonAdapter) -> a
+com.google.gson.internal.bind.JsonTreeWriter -> com.google.gson.internal.bind.h:
+    java.io.Writer UNWRITABLE_WRITER -> a
+    com.google.gson.JsonPrimitive SENTINEL_CLOSED -> b
+    java.util.List stack -> c
+    java.lang.String pendingName -> d
+    com.google.gson.JsonElement product -> e
+    49:59:void <init>() -> <init>
+    65:68:com.google.gson.JsonElement get() -> a
+    72:72:com.google.gson.JsonElement peek() -> j
+    76:92:void put(com.google.gson.JsonElement) -> a
+    95:98:com.google.gson.stream.JsonWriter beginArray() -> b
+    102:110:com.google.gson.stream.JsonWriter endArray() -> c
+    114:117:com.google.gson.stream.JsonWriter beginObject() -> d
+    121:129:com.google.gson.stream.JsonWriter endObject() -> e
+    133:141:com.google.gson.stream.JsonWriter name(java.lang.String) -> a
+    145:149:com.google.gson.stream.JsonWriter value(java.lang.String) -> b
+    153:154:com.google.gson.stream.JsonWriter nullValue() -> f
+    158:159:com.google.gson.stream.JsonWriter value(boolean) -> a
+    171:172:com.google.gson.stream.JsonWriter value(long) -> a
+    176:188:com.google.gson.stream.JsonWriter value(java.lang.Number) -> a
+    192:192:void flush() -> flush
+    195:199:void close() -> close
+    34:46:void <clinit>() -> <clinit>
+com.google.gson.internal.bind.JsonTreeWriter$1 -> com.google.gson.internal.bind.i:
+    34:34:void <init>() -> <init>
+    36:36:void write(char[],int,int) -> write
+    39:39:void flush() -> flush
+    42:42:void close() -> close
+com.google.gson.internal.bind.MapTypeAdapterFactory -> com.google.gson.internal.bind.j:
+    com.google.gson.internal.ConstructorConstructor constructorConstructor -> a
+    boolean complexMapKeySerialization -> b
+    110:113:void <init>(com.google.gson.internal.ConstructorConstructor,boolean) -> <init>
+    116:133:com.google.gson.TypeAdapter create(com.google.gson.Gson,com.google.gson.reflect.TypeToken) -> a
+    140:140:com.google.gson.TypeAdapter getKeyAdapter(com.google.gson.Gson,java.lang.reflect.Type) -> a
+    105:105:boolean access$000(com.google.gson.internal.bind.MapTypeAdapterFactory) -> a
+com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter -> com.google.gson.internal.bind.k:
+    com.google.gson.TypeAdapter keyTypeAdapter -> b
+    com.google.gson.TypeAdapter valueTypeAdapter -> c
+    com.google.gson.internal.ObjectConstructor constructor -> d
+    com.google.gson.internal.bind.MapTypeAdapterFactory this$0 -> a
+    152:158:void <init>(com.google.gson.internal.bind.MapTypeAdapterFactory,com.google.gson.Gson,java.lang.reflect.Type,com.google.gson.TypeAdapter,java.lang.reflect.Type,com.google.gson.TypeAdapter,com.google.gson.internal.ObjectConstructor) -> <init>
+    199:243:void write(com.google.gson.stream.JsonWriter,java.util.Map) -> a
+    246:260:java.lang.String keyToString(com.google.gson.JsonElement) -> a
+    145:145:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.ObjectTypeAdapter -> com.google.gson.internal.bind.l:
+    com.google.gson.TypeAdapterFactory FACTORY -> a
+    com.google.gson.Gson gson -> b
+    50:52:void <init>(com.google.gson.Gson) -> <init>
+    95:108:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+    37:37:void <init>(com.google.gson.Gson,com.google.gson.internal.bind.ObjectTypeAdapter$1) -> <init>
+    38:38:void <clinit>() -> <clinit>
+com.google.gson.internal.bind.ObjectTypeAdapter$1 -> com.google.gson.internal.bind.m:
+    38:38:void <init>() -> <init>
+    41:44:com.google.gson.TypeAdapter create(com.google.gson.Gson,com.google.gson.reflect.TypeToken) -> a
+com.google.gson.internal.bind.ReflectiveTypeAdapterFactory -> com.google.gson.internal.bind.n:
+    com.google.gson.internal.ConstructorConstructor constructorConstructor -> a
+    com.google.gson.FieldNamingStrategy fieldNamingPolicy -> b
+    com.google.gson.internal.Excluder excluder -> c
+    52:56:void <init>(com.google.gson.internal.ConstructorConstructor,com.google.gson.FieldNamingStrategy,com.google.gson.internal.Excluder) -> <init>
+    59:59:boolean excludeField(java.lang.reflect.Field,boolean) -> a
+    63:63:boolean excludeField(java.lang.reflect.Field,boolean,com.google.gson.internal.Excluder) -> a
+    67:67:java.lang.String getFieldName(java.lang.reflect.Field) -> a
+    71:72:java.lang.String getFieldName(com.google.gson.FieldNamingStrategy,java.lang.reflect.Field) -> a
+    76:83:com.google.gson.TypeAdapter create(com.google.gson.Gson,com.google.gson.reflect.TypeToken) -> a
+    89:91:com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$BoundField createBoundField(com.google.gson.Gson,java.lang.reflect.Field,java.lang.String,com.google.gson.reflect.TypeToken,boolean,boolean) -> a
+    117:122:com.google.gson.TypeAdapter getFieldAdapter(com.google.gson.Gson,java.lang.reflect.Field,com.google.gson.reflect.TypeToken) -> a
+    126:153:java.util.Map getBoundFields(com.google.gson.Gson,com.google.gson.reflect.TypeToken,java.lang.Class) -> a
+    46:46:com.google.gson.TypeAdapter access$100(com.google.gson.internal.bind.ReflectiveTypeAdapterFactory,com.google.gson.Gson,java.lang.reflect.Field,com.google.gson.reflect.TypeToken) -> a
+com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1 -> com.google.gson.internal.bind.o:
+    com.google.gson.TypeAdapter typeAdapter -> a
+    com.google.gson.Gson val$context -> b
+    java.lang.reflect.Field val$field -> c
+    com.google.gson.reflect.TypeToken val$fieldType -> d
+    boolean val$isPrimitive -> e
+    com.google.gson.internal.bind.ReflectiveTypeAdapterFactory this$0 -> f
+    91:92:void <init>(com.google.gson.internal.bind.ReflectiveTypeAdapterFactory,java.lang.String,boolean,boolean,com.google.gson.Gson,java.lang.reflect.Field,com.google.gson.reflect.TypeToken,boolean) -> <init>
+    96:100:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+    109:111:boolean writeField(java.lang.Object) -> a
+com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter -> com.google.gson.internal.bind.p:
+    com.google.gson.internal.ObjectConstructor constructor -> a
+    java.util.Map boundFields -> b
+    175:178:void <init>(com.google.gson.internal.ObjectConstructor,java.util.Map) -> <init>
+    209:226:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+    171:171:void <init>(com.google.gson.internal.ObjectConstructor,java.util.Map,com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1) -> <init>
+com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$BoundField -> com.google.gson.internal.bind.q:
+    java.lang.String name -> g
+    boolean serialized -> h
+    boolean deserialized -> i
+    161:165:void <init>(java.lang.String,boolean,boolean) -> <init>
+    boolean writeField(java.lang.Object) -> a
+    void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.SqlDateTypeAdapter -> com.google.gson.internal.bind.r:
+    com.google.gson.TypeAdapterFactory FACTORY -> a
+    java.text.DateFormat format -> b
+    38:47:void <init>() -> <init>
+    65:66:void write(com.google.gson.stream.JsonWriter,java.sql.Date) -> a
+    38:38:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+    39:39:void <clinit>() -> <clinit>
+com.google.gson.internal.bind.SqlDateTypeAdapter$1 -> com.google.gson.internal.bind.s:
+    39:39:void <init>() -> <init>
+    42:42:com.google.gson.TypeAdapter create(com.google.gson.Gson,com.google.gson.reflect.TypeToken) -> a
+com.google.gson.internal.bind.TimeTypeAdapter -> com.google.gson.internal.bind.t:
+    com.google.gson.TypeAdapterFactory FACTORY -> a
+    java.text.DateFormat format -> b
+    40:48:void <init>() -> <init>
+    64:65:void write(com.google.gson.stream.JsonWriter,java.sql.Time) -> a
+    40:40:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+    41:41:void <clinit>() -> <clinit>
+com.google.gson.internal.bind.TimeTypeAdapter$1 -> com.google.gson.internal.bind.u:
+    41:41:void <init>() -> <init>
+    44:44:com.google.gson.TypeAdapter create(com.google.gson.Gson,com.google.gson.reflect.TypeToken) -> a
+com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper -> com.google.gson.internal.bind.v:
+    com.google.gson.Gson context -> a
+    com.google.gson.TypeAdapter delegate -> b
+    java.lang.reflect.Type type -> c
+    32:36:void <init>(com.google.gson.Gson,com.google.gson.TypeAdapter,java.lang.reflect.Type) -> <init>
+    52:69:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+    75:79:java.lang.reflect.Type getRuntimeTypeIfMoreSpecific(java.lang.reflect.Type,java.lang.Object) -> a
+com.google.gson.internal.bind.TypeAdapters -> com.google.gson.internal.bind.w:
+    com.google.gson.TypeAdapter CLASS -> a
+    com.google.gson.TypeAdapterFactory CLASS_FACTORY -> b
+    com.google.gson.TypeAdapter BIT_SET -> c
+    com.google.gson.TypeAdapterFactory BIT_SET_FACTORY -> d
+    com.google.gson.TypeAdapter BOOLEAN -> e
+    com.google.gson.TypeAdapter BOOLEAN_AS_STRING -> f
+    com.google.gson.TypeAdapterFactory BOOLEAN_FACTORY -> g
+    com.google.gson.TypeAdapter BYTE -> h
+    com.google.gson.TypeAdapterFactory BYTE_FACTORY -> i
+    com.google.gson.TypeAdapter SHORT -> j
+    com.google.gson.TypeAdapterFactory SHORT_FACTORY -> k
+    com.google.gson.TypeAdapter INTEGER -> l
+    com.google.gson.TypeAdapterFactory INTEGER_FACTORY -> m
+    com.google.gson.TypeAdapter LONG -> n
+    com.google.gson.TypeAdapter FLOAT -> o
+    com.google.gson.TypeAdapter DOUBLE -> p
+    com.google.gson.TypeAdapter NUMBER -> q
+    com.google.gson.TypeAdapterFactory NUMBER_FACTORY -> r
+    com.google.gson.TypeAdapter CHARACTER -> s
+    com.google.gson.TypeAdapterFactory CHARACTER_FACTORY -> t
+    com.google.gson.TypeAdapter STRING -> u
+    com.google.gson.TypeAdapter BIG_DECIMAL -> v
+    com.google.gson.TypeAdapter BIG_INTEGER -> w
+    com.google.gson.TypeAdapterFactory STRING_FACTORY -> x
+    com.google.gson.TypeAdapter STRING_BUILDER -> y
+    com.google.gson.TypeAdapterFactory STRING_BUILDER_FACTORY -> z
+    com.google.gson.TypeAdapter STRING_BUFFER -> A
+    com.google.gson.TypeAdapterFactory STRING_BUFFER_FACTORY -> B
+    com.google.gson.TypeAdapter URL -> C
+    com.google.gson.TypeAdapterFactory URL_FACTORY -> D
+    com.google.gson.TypeAdapter URI -> E
+    com.google.gson.TypeAdapterFactory URI_FACTORY -> F
+    com.google.gson.TypeAdapter INET_ADDRESS -> G
+    com.google.gson.TypeAdapterFactory INET_ADDRESS_FACTORY -> H
+    com.google.gson.TypeAdapter UUID -> I
+    com.google.gson.TypeAdapterFactory UUID_FACTORY -> J
+    com.google.gson.TypeAdapterFactory TIMESTAMP_FACTORY -> K
+    com.google.gson.TypeAdapter CALENDAR -> L
+    com.google.gson.TypeAdapterFactory CALENDAR_FACTORY -> M
+    com.google.gson.TypeAdapter LOCALE -> N
+    com.google.gson.TypeAdapterFactory LOCALE_FACTORY -> O
+    com.google.gson.TypeAdapter JSON_ELEMENT -> P
+    com.google.gson.TypeAdapterFactory JSON_ELEMENT_FACTORY -> Q
+    com.google.gson.TypeAdapterFactory ENUM_FACTORY -> R
+    775:775:com.google.gson.TypeAdapterFactory newFactory(java.lang.Class,com.google.gson.TypeAdapter) -> a
+    788:788:com.google.gson.TypeAdapterFactory newFactory(java.lang.Class,java.lang.Class,com.google.gson.TypeAdapter) -> a
+    803:803:com.google.gson.TypeAdapterFactory newFactoryForMultipleTypes(java.lang.Class,java.lang.Class,com.google.gson.TypeAdapter) -> b
+    818:818:com.google.gson.TypeAdapterFactory newTypeHierarchyFactory(java.lang.Class,com.google.gson.TypeAdapter) -> b
+    61:749:void <clinit>() -> <clinit>
+com.google.gson.internal.bind.TypeAdapters$1 -> com.google.gson.internal.bind.x:
+    61:61:void <init>() -> <init>
+    64:70:void write(com.google.gson.stream.JsonWriter,java.lang.Class) -> a
+    61:61:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.TypeAdapters$10 -> com.google.gson.internal.bind.y:
+    287:287:void <init>() -> <init>
+    298:299:void write(com.google.gson.stream.JsonWriter,java.lang.Number) -> a
+    287:287:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.TypeAdapters$11 -> com.google.gson.internal.bind.z:
+    302:302:void <init>() -> <init>
+    318:319:void write(com.google.gson.stream.JsonWriter,java.lang.Number) -> a
+    302:302:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.TypeAdapters$12 -> com.google.gson.internal.bind.aa:
+    324:324:void <init>() -> <init>
+    339:340:void write(com.google.gson.stream.JsonWriter,java.lang.Character) -> a
+    324:324:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.TypeAdapters$13 -> com.google.gson.internal.bind.ab:
+    346:346:void <init>() -> <init>
+    362:363:void write(com.google.gson.stream.JsonWriter,java.lang.String) -> a
+    346:346:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.TypeAdapters$14 -> com.google.gson.internal.bind.ac:
+    366:366:void <init>() -> <init>
+    380:381:void write(com.google.gson.stream.JsonWriter,java.math.BigDecimal) -> a
+    366:366:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.TypeAdapters$15 -> com.google.gson.internal.bind.ad:
+    384:384:void <init>() -> <init>
+    398:399:void write(com.google.gson.stream.JsonWriter,java.math.BigInteger) -> a
+    384:384:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.TypeAdapters$16 -> com.google.gson.internal.bind.ae:
+    404:404:void <init>() -> <init>
+    415:416:void write(com.google.gson.stream.JsonWriter,java.lang.StringBuilder) -> a
+    404:404:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.TypeAdapters$17 -> com.google.gson.internal.bind.af:
+    422:422:void <init>() -> <init>
+    433:434:void write(com.google.gson.stream.JsonWriter,java.lang.StringBuffer) -> a
+    422:422:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.TypeAdapters$18 -> com.google.gson.internal.bind.ag:
+    440:440:void <init>() -> <init>
+    452:453:void write(com.google.gson.stream.JsonWriter,java.net.URL) -> a
+    440:440:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.TypeAdapters$19 -> com.google.gson.internal.bind.ah:
+    458:458:void <init>() -> <init>
+    474:475:void write(com.google.gson.stream.JsonWriter,java.net.URI) -> a
+    458:458:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.TypeAdapters$2 -> com.google.gson.internal.bind.ai:
+    84:84:void <init>() -> <init>
+    127:138:void write(com.google.gson.stream.JsonWriter,java.util.BitSet) -> a
+    84:84:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.TypeAdapters$20 -> com.google.gson.internal.bind.aj:
+    480:480:void <init>() -> <init>
+    492:493:void write(com.google.gson.stream.JsonWriter,java.net.InetAddress) -> a
+    480:480:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.TypeAdapters$21 -> com.google.gson.internal.bind.ak:
+    499:499:void <init>() -> <init>
+    510:511:void write(com.google.gson.stream.JsonWriter,java.util.UUID) -> a
+    499:499:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.TypeAdapters$22 -> com.google.gson.internal.bind.al:
+    516:516:void <init>() -> <init>
+    519:524:com.google.gson.TypeAdapter create(com.google.gson.Gson,com.google.gson.reflect.TypeToken) -> a
+com.google.gson.internal.bind.TypeAdapters$22$1 -> com.google.gson.internal.bind.am:
+    com.google.gson.TypeAdapter val$dateTypeAdapter -> a
+    com.google.gson.internal.bind.TypeAdapters$22 this$0 -> b
+    524:524:void <init>(com.google.gson.internal.bind.TypeAdapters$22,com.google.gson.TypeAdapter) -> <init>
+    531:532:void write(com.google.gson.stream.JsonWriter,java.sql.Timestamp) -> a
+    524:524:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.TypeAdapters$23 -> com.google.gson.internal.bind.an:
+    537:537:void <init>() -> <init>
+    581:599:void write(com.google.gson.stream.JsonWriter,java.util.Calendar) -> a
+    537:537:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.TypeAdapters$24 -> com.google.gson.internal.bind.ao:
+    605:605:void <init>() -> <init>
+    636:637:void write(com.google.gson.stream.JsonWriter,java.util.Locale) -> a
+    605:605:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.TypeAdapters$25 -> com.google.gson.internal.bind.ap:
+    642:642:void <init>() -> <init>
+    681:711:void write(com.google.gson.stream.JsonWriter,com.google.gson.JsonElement) -> a
+    642:642:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.TypeAdapters$26 -> com.google.gson.internal.bind.aq:
+    749:749:void <init>() -> <init>
+    752:759:com.google.gson.TypeAdapter create(com.google.gson.Gson,com.google.gson.reflect.TypeToken) -> a
+com.google.gson.internal.bind.TypeAdapters$28 -> com.google.gson.internal.bind.ar:
+    java.lang.Class val$type -> a
+    com.google.gson.TypeAdapter val$typeAdapter -> b
+    775:775:void <init>(java.lang.Class,com.google.gson.TypeAdapter) -> <init>
+    778:778:com.google.gson.TypeAdapter create(com.google.gson.Gson,com.google.gson.reflect.TypeToken) -> a
+    781:781:java.lang.String toString() -> toString
+com.google.gson.internal.bind.TypeAdapters$29 -> com.google.gson.internal.bind.as:
+    java.lang.Class val$unboxed -> a
+    java.lang.Class val$boxed -> b
+    com.google.gson.TypeAdapter val$typeAdapter -> c
+    788:788:void <init>(java.lang.Class,java.lang.Class,com.google.gson.TypeAdapter) -> <init>
+    791:792:com.google.gson.TypeAdapter create(com.google.gson.Gson,com.google.gson.reflect.TypeToken) -> a
+    795:795:java.lang.String toString() -> toString
+com.google.gson.internal.bind.TypeAdapters$3 -> com.google.gson.internal.bind.at:
+    143:143:void <init>() -> <init>
+    157:162:void write(com.google.gson.stream.JsonWriter,java.lang.Boolean) -> a
+    143:143:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.TypeAdapters$30 -> com.google.gson.internal.bind.au:
+    java.lang.Class val$base -> a
+    java.lang.Class val$sub -> b
+    com.google.gson.TypeAdapter val$typeAdapter -> c
+    803:803:void <init>(java.lang.Class,java.lang.Class,com.google.gson.TypeAdapter) -> <init>
+    806:807:com.google.gson.TypeAdapter create(com.google.gson.Gson,com.google.gson.reflect.TypeToken) -> a
+    810:810:java.lang.String toString() -> toString
+com.google.gson.internal.bind.TypeAdapters$31 -> com.google.gson.internal.bind.av:
+    java.lang.Class val$clazz -> a
+    com.google.gson.TypeAdapter val$typeAdapter -> b
+    818:818:void <init>(java.lang.Class,com.google.gson.TypeAdapter) -> <init>
+    821:821:com.google.gson.TypeAdapter create(com.google.gson.Gson,com.google.gson.reflect.TypeToken) -> a
+    824:824:java.lang.String toString() -> toString
+com.google.gson.internal.bind.TypeAdapters$4 -> com.google.gson.internal.bind.aw:
+    169:169:void <init>() -> <init>
+    179:180:void write(com.google.gson.stream.JsonWriter,java.lang.Boolean) -> a
+    169:169:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.TypeAdapters$5 -> com.google.gson.internal.bind.ax:
+    186:186:void <init>() -> <init>
+    202:203:void write(com.google.gson.stream.JsonWriter,java.lang.Number) -> a
+    186:186:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.TypeAdapters$6 -> com.google.gson.internal.bind.ay:
+    209:209:void <init>() -> <init>
+    224:225:void write(com.google.gson.stream.JsonWriter,java.lang.Number) -> a
+    209:209:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.TypeAdapters$7 -> com.google.gson.internal.bind.az:
+    231:231:void <init>() -> <init>
+    246:247:void write(com.google.gson.stream.JsonWriter,java.lang.Number) -> a
+    231:231:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.TypeAdapters$8 -> com.google.gson.internal.bind.ba:
+    253:253:void <init>() -> <init>
+    268:269:void write(com.google.gson.stream.JsonWriter,java.lang.Number) -> a
+    253:253:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.TypeAdapters$9 -> com.google.gson.internal.bind.bb:
+    272:272:void <init>() -> <init>
+    283:284:void write(com.google.gson.stream.JsonWriter,java.lang.Number) -> a
+    272:272:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.internal.bind.TypeAdapters$EnumTypeAdapter -> com.google.gson.internal.bind.bc:
+    java.util.Map nameToConstant -> a
+    java.util.Map constantToName -> b
+    718:735:void <init>(java.lang.Class) -> <init>
+    745:746:void write(com.google.gson.stream.JsonWriter,java.lang.Enum) -> a
+    717:717:void write(com.google.gson.stream.JsonWriter,java.lang.Object) -> a
+com.google.gson.reflect.TypeToken -> com.google.gson.reflect.a:
+    java.lang.Class rawType -> a
+    java.lang.reflect.Type type -> b
+    int hashCode -> c
+    61:65:void <init>() -> <init>
+    71:75:void <init>(java.lang.reflect.Type) -> <init>
+    82:87:java.lang.reflect.Type getSuperclassTypeParameter(java.lang.Class) -> a
+    94:94:java.lang.Class getRawType() -> a
+    101:101:java.lang.reflect.Type getType() -> b
+    280:280:int hashCode() -> hashCode
+    284:284:boolean equals(java.lang.Object) -> equals
+    289:289:java.lang.String toString() -> toString
+    296:296:com.google.gson.reflect.TypeToken get(java.lang.reflect.Type) -> a
+    303:303:com.google.gson.reflect.TypeToken get(java.lang.Class) -> b
+com.google.gson.stream.JsonWriter -> com.google.gson.stream.a:
+    java.lang.String[] REPLACEMENT_CHARS -> a
+    java.lang.String[] HTML_SAFE_REPLACEMENT_CHARS -> b
+    java.io.Writer out -> c
+    int[] stack -> d
+    int stackSize -> e
+    java.lang.String indent -> f
+    java.lang.String separator -> g
+    boolean lenient -> h
+    boolean htmlSafe -> i
+    java.lang.String deferredName -> j
+    boolean serializeNulls -> k
+    167:202:void <init>(java.io.Writer) -> <init>
+    213:220:void setIndent(java.lang.String) -> c
+    235:236:void setLenient(boolean) -> b
+    242:242:boolean isLenient() -> g
+    253:254:void setHtmlSafe(boolean) -> c
+    261:261:boolean isHtmlSafe() -> h
+    269:270:void setSerializeNulls(boolean) -> d
+    277:277:boolean getSerializeNulls() -> i
+    287:288:com.google.gson.stream.JsonWriter beginArray() -> b
+    297:297:com.google.gson.stream.JsonWriter endArray() -> c
+    307:308:com.google.gson.stream.JsonWriter beginObject() -> d
+    317:317:com.google.gson.stream.JsonWriter endObject() -> e
+    325:328:com.google.gson.stream.JsonWriter open(int,java.lang.String) -> a
+    337:350:com.google.gson.stream.JsonWriter close(int,int,java.lang.String) -> a
+    354:360:void push(int) -> a
+    366:369:int peek() -> a
+    376:377:void replaceTop(int) -> b
+    386:396:com.google.gson.stream.JsonWriter name(java.lang.String) -> a
+    400:405:void writeDeferredName() -> j
+    414:420:com.google.gson.stream.JsonWriter value(java.lang.String) -> b
+    429:439:com.google.gson.stream.JsonWriter nullValue() -> f
+    448:451:com.google.gson.stream.JsonWriter value(boolean) -> a
+    477:480:com.google.gson.stream.JsonWriter value(long) -> a
+    491:503:com.google.gson.stream.JsonWriter value(java.lang.Number) -> a
+    511:515:void flush() -> flush
+    523:530:void close() -> close
+    533:562:void string(java.lang.String) -> d
+    565:573:void newline() -> k
+    580:588:void beforeName() -> l
+    600:633:void beforeValue(boolean) -> e
+    145:162:void <clinit>() -> <clinit>
+com.idsmanager.idsmanageru2fclient.U2FClientApi -> com.idsmanager.idsmanageru2fclient.U2FClientApi:
+    java.lang.String TAG -> TAG
+    android.content.Context applicationContext -> applicationContext
+    20:20:void <init>() -> <init>
+    30:32:void init(android.content.Context) -> init
+    35:35:android.content.Context getContext() -> getContext
+    46:53:void startBluetoothRegister(com.idsmanager.idsmanageru2fclient.domain.U2FRequest,com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback) -> startBluetoothRegister
+    63:70:void startBluetoothVerify(com.idsmanager.idsmanageru2fclient.domain.U2FRequest,com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback) -> startBluetoothVerify
+    80:87:void startBluetoothTransactionConfirm(com.idsmanager.idsmanageru2fclient.domain.U2FRequest,com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback) -> startBluetoothTransactionConfirm
+    96:109:void startBleRegister(com.idsmanager.idsmanageru2fclient.domain.U2FRequest,com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback) -> startBleRegister
+    118:131:void startBleVerify(com.idsmanager.idsmanageru2fclient.domain.U2FRequest,com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback) -> startBleVerify
+    140:153:void startBleTransactionConfirm(com.idsmanager.idsmanageru2fclient.domain.U2FRequest,com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback) -> startBleTransactionConfirm
+    162:170:void startNFCRegister(com.idsmanager.idsmanageru2fclient.domain.U2FRequest,com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback) -> startNFCRegister
+    179:187:void startNFCVerify(com.idsmanager.idsmanageru2fclient.domain.U2FRequest,com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback) -> startNFCVerify
+    193:195:void cancelU2F() -> cancelU2F
+    204:205:void setUID(byte[]) -> setUID
+    211:212:void synTime(java.lang.Object) -> synTime
+    21:21:void <clinit>() -> <clinit>
+com.idsmanager.idsmanageru2fclient.domain.ClientData -> com.idsmanager.idsmanageru2fclient.domain.ClientData:
+    java.lang.String typ -> typ
+    java.lang.String challenge -> challenge
+    java.lang.String origin -> origin
+    13:17:void <init>(java.lang.String,java.lang.String,java.lang.String) -> <init>
+    21:22:java.lang.String toJsonString() -> toJsonString
+com.idsmanager.idsmanageru2fclient.domain.FinishRegisterData -> com.idsmanager.idsmanageru2fclient.domain.FinishRegisterData:
+    java.lang.String registrationData -> registrationData
+    java.lang.String clientData -> clientData
+    14:17:void <init>(java.lang.String,java.lang.String) -> <init>
+    20:20:java.lang.String getRegistrationData() -> getRegistrationData
+    24:24:java.lang.String getClientData() -> getClientData
+    29:30:java.lang.String toJsonString() -> toJsonString
+com.idsmanager.idsmanageru2fclient.domain.FinishVerifyData -> com.idsmanager.idsmanageru2fclient.domain.FinishVerifyData:
+    java.lang.String signatureData -> signatureData
+    java.lang.String clientData -> clientData
+    java.lang.String keyHandle -> keyHandle
+    13:17:void <init>(java.lang.String,java.lang.String,java.lang.String) -> <init>
+    20:20:java.lang.String getSignatureData() -> getSignatureData
+    24:24:java.lang.String getClientData() -> getClientData
+    28:28:java.lang.String getKeyHandle() -> getKeyHandle
+    33:34:java.lang.String toJsonString() -> toJsonString
+com.idsmanager.idsmanageru2fclient.domain.JsonStringInterface -> com.idsmanager.idsmanageru2fclient.domain.JsonStringInterface:
+    java.lang.String toJsonString() -> toJsonString
+com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData -> com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData:
+    java.lang.String challenge -> challenge
+    java.lang.String version -> version
+    java.lang.String appId -> appId
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    17:17:java.lang.String getVersion() -> getVersion
+    21:22:void setVersion(java.lang.String) -> setVersion
+    25:25:java.lang.String getChallenge() -> getChallenge
+    29:30:void setChallenge(java.lang.String) -> setChallenge
+    33:33:java.lang.String getAppId() -> getAppId
+    37:38:void setAppId(java.lang.String) -> setAppId
+    40:44:void <init>(android.os.Parcel) -> <init>
+    60:60:int describeContents() -> describeContents
+    65:68:void writeToParcel(android.os.Parcel,int) -> writeToParcel
+    46:46:void <clinit>() -> <clinit>
+com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData$1 -> com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData$1:
+    46:46:void <init>() -> <init>
+    49:49:com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData createFromParcel(android.os.Parcel) -> createFromParcel
+    54:54:com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData[] newArray(int) -> newArray
+    46:46:java.lang.Object[] newArray(int) -> newArray
+    46:46:java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData -> com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData:
+    java.lang.String challenge -> challenge
+    java.lang.String version -> version
+    java.lang.String appId -> appId
+    java.lang.String keyHandle -> keyHandle
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    17:22:void <init>(android.os.Parcel) -> <init>
+    25:25:java.lang.String getChallenge() -> getChallenge
+    29:30:void setChallenge(java.lang.String) -> setChallenge
+    33:33:java.lang.String getVersion() -> getVersion
+    37:38:void setVersion(java.lang.String) -> setVersion
+    41:41:java.lang.String getAppId() -> getAppId
+    45:46:void setAppId(java.lang.String) -> setAppId
+    49:49:java.lang.String getKeyHandle() -> getKeyHandle
+    53:54:void setKeyHandle(java.lang.String) -> setKeyHandle
+    70:70:int describeContents() -> describeContents
+    75:79:void writeToParcel(android.os.Parcel,int) -> writeToParcel
+    56:56:void <clinit>() -> <clinit>
+com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData$1 -> com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData$1:
+    56:56:void <init>() -> <init>
+    59:59:com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData createFromParcel(android.os.Parcel) -> createFromParcel
+    64:64:com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData[] newArray(int) -> newArray
+    56:56:java.lang.Object[] newArray(int) -> newArray
+    56:56:java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+com.idsmanager.idsmanageru2fclient.domain.U2FRequest -> com.idsmanager.idsmanageru2fclient.domain.U2FRequest:
+    java.lang.String TYPE_REGISTER -> TYPE_REGISTER
+    java.lang.String TYPE_VERIFY -> TYPE_VERIFY
+    java.lang.String TYPE_TRANSACTION -> TYPE_TRANSACTION
+    java.util.ArrayList registerRequests -> registerRequests
+    java.util.ArrayList authenticateRequests -> authenticateRequests
+    java.lang.String type -> type
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    21:25:void <init>(android.os.Parcel) -> <init>
+    28:28:java.util.ArrayList getRegisterRequests() -> getRegisterRequests
+    32:33:void setRegisterRequests(java.util.ArrayList) -> setRegisterRequests
+    36:36:java.util.ArrayList getAuthenticateRequests() -> getAuthenticateRequests
+    40:41:void setAuthenticateRequests(java.util.ArrayList) -> setAuthenticateRequests
+    44:44:java.lang.String getType() -> getType
+    48:49:void setType(java.lang.String) -> setType
+    65:65:int describeContents() -> describeContents
+    70:73:void writeToParcel(android.os.Parcel,int) -> writeToParcel
+    51:51:void <clinit>() -> <clinit>
+com.idsmanager.idsmanageru2fclient.domain.U2FRequest$1 -> com.idsmanager.idsmanageru2fclient.domain.U2FRequest$1:
+    51:51:void <init>() -> <init>
+    54:54:com.idsmanager.idsmanageru2fclient.domain.U2FRequest createFromParcel(android.os.Parcel) -> createFromParcel
+    59:59:com.idsmanager.idsmanageru2fclient.domain.U2FRequest[] newArray(int) -> newArray
+    51:51:java.lang.Object[] newArray(int) -> newArray
+    51:51:java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+com.idsmanager.idsmanageru2fclient.interfaces.U2FErrorCode -> com.idsmanager.idsmanageru2fclient.interfaces.U2FErrorCode:
+    int ERROR_BLUETOOTH_NOT_AVAILABLE -> ERROR_BLUETOOTH_NOT_AVAILABLE
+    int ERROR_BLUETOOTH_REFUSED -> ERROR_BLUETOOTH_REFUSED
+    int ERROR_BLUETOOTH_NOT_PAIR -> ERROR_BLUETOOTH_NOT_PAIR
+    int ERROR_BLUETOOTH_CONNECT_FAILED -> ERROR_BLUETOOTH_CONNECT_FAILED
+    int ERROR_DATA_ERROR -> ERROR_DATA_ERROR
+    int ERROR_USER_NOT_REGISTER -> ERROR_USER_NOT_REGISTER
+    int ERROR_USER_CANCEL -> ERROR_USER_CANCEL
+    int ERROR_USER_REGISTERED -> ERROR_USER_REGISTERED
+    int ERROR_DEVICE_VERSION_NOT_SUPPORT -> ERROR_DEVICE_VERSION_NOT_SUPPORT
+    int ERROR_USER_PRESENCE_TIME_OUT -> ERROR_USER_PRESENCE_TIME_OUT
+    int ERROR_NFC_NOT_AVAILABLE -> ERROR_NFC_NOT_AVAILABLE
+    int ERROR_NFC_CONNECT_ERROR -> ERROR_NFC_CONNECT_ERROR
+    int ERROR_NFC_NOT_OPENED -> ERROR_NFC_NOT_OPENED
+    int ERROR_TYPE_ERROR -> ERROR_TYPE_ERROR
+    int ERROR_DATA_TIMEOUT -> ERROR_DATA_TIMEOUT
+    int ERROR_BLE_SYSTEM_NOT_SUPPORT -> ERROR_BLE_SYSTEM_NOT_SUPPORT
+com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback -> com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback:
+    void onConnectStart() -> onConnectStart
+    void onConnect(java.lang.String) -> onConnect
+    void onUserAction() -> onUserAction
+    void onActionFinish() -> onActionFinish
+    void onRegisterResponse(com.idsmanager.idsmanageru2fclient.domain.FinishRegisterData) -> onRegisterResponse
+    void onVerifyResponse(com.idsmanager.idsmanageru2fclient.domain.FinishVerifyData) -> onVerifyResponse
+    void onError(int) -> onError
+    void onConnectLost() -> onConnectLost
+com.idsmanager.idsmanageru2fclient.log.StatLog -> com.idsmanager.idsmanageru2fclient.log.a:
+    20:26:boolean isLogEnabled() -> a
+    31:40:void printLog(java.lang.String,java.lang.String) -> a
+    43:44:void writeLog(java.lang.String,java.lang.String) -> b
+    48:64:void internalWriteLog(java.lang.String,java.lang.String,java.lang.String) -> a
+    67:68:java.lang.String getCurrentTime() -> b
+com.idsmanager.idsmanageru2fclient.parser.ActionHandler -> com.idsmanager.idsmanageru2fclient.parser.a:
+    void onCheckOnlyUserNotPresence() -> a
+    void onCheckOnlyBadKeyHandle() -> b
+    void onDataError(int) -> a
+    void onVersion(java.lang.String) -> a
+    void onDataResult(byte[]) -> a
+com.idsmanager.idsmanageru2fclient.parser.DataParser -> com.idsmanager.idsmanageru2fclient.parser.b:
+    com.idsmanager.idsmanageru2fclient.parser.ActionHandler actionHandler -> a
+    9:14:void <init>(com.idsmanager.idsmanageru2fclient.parser.ActionHandler) -> <init>
+com.idsmanager.idsmanageru2fclient.parser.NFCDataParserImpl -> com.idsmanager.idsmanageru2fclient.parser.c:
+    java.lang.String TAG -> b
+    21:22:void <init>(com.idsmanager.idsmanageru2fclient.parser.ActionHandler) -> <init>
+    27:44:void parse(byte[],int) -> a
+    14:14:void <clinit>() -> <clinit>
+com.idsmanager.idsmanageru2fclient.parser.QKeyDataParserImpl -> com.idsmanager.idsmanageru2fclient.parser.d:
+    java.lang.String TAG -> b
+    24:25:void <init>(com.idsmanager.idsmanageru2fclient.parser.ActionHandler) -> <init>
+    30:58:void parse(byte[],int) -> a
+    15:15:void <clinit>() -> <clinit>
+com.idsmanager.idsmanageru2fclient.plugin.PhoneMonitorApi -> com.idsmanager.idsmanageru2fclient.plugin.a:
+    java.lang.Class sMonitorApiClass -> a
+    13:15:java.lang.Class loadClass(java.lang.String) -> a
+    20:23:java.lang.Class getClass(android.content.Context) -> b
+    27:40:void init(android.content.Context) -> a
+    43:56:void setUID(android.content.Context,byte[]) -> a
+    59:73:void synTime(android.content.Context,long,java.lang.Object) -> a
+com.idsmanager.idsmanageru2fclient.plugin.Plugins -> com.idsmanager.idsmanageru2fclient.plugin.b:
+    10:11:void init(android.content.Context) -> a
+com.idsmanager.idsmanageru2fclient.protocol.NFCProtocolImpl -> com.idsmanager.idsmanageru2fclient.protocol.a:
+    java.lang.String TAG -> i
+    com.idsmanager.idsmanageru2fclient.u2f.ChannelIo channelIo -> a
+    int optionType -> b
+    com.idsmanager.idsmanageru2fclient.domain.ClientData clientData -> c
+    java.lang.String clientDataString -> d
+    java.lang.Object request -> e
+    com.idsmanager.idsmanageru2fclient.protocol.Protocol$U2FProtocolResultCallback u2FProtocolResultCallback -> j
+    com.idsmanager.idsmanageru2fclient.protocol.NFCProtocolImpl$VerifyThread verifyThread -> f
+    com.idsmanager.idsmanageru2fclient.protocol.NFCProtocolImpl$RegisterThread registerThread -> g
+    int mState -> k
+    com.idsmanager.idsmanageru2fclient.parser.ActionHandler nfcActionHandler -> h
+    45:113:void <init>(com.idsmanager.idsmanageru2fclient.u2f.ChannelIo,int) -> <init>
+    60:73:void register(com.idsmanager.idsmanageru2fclient.domain.U2FRequest) -> a
+    77:90:void verify(com.idsmanager.idsmanageru2fclient.domain.U2FRequest) -> b
+    99:100:void setU2FProtocolResultCallback(com.idsmanager.idsmanageru2fclient.protocol.Protocol$U2FProtocolResultCallback) -> a
+    103:104:void setState(int) -> a
+    108:111:void onMessage(int,byte[]) -> a
+    30:30:com.idsmanager.idsmanageru2fclient.protocol.Protocol$U2FProtocolResultCallback access$000(com.idsmanager.idsmanageru2fclient.protocol.NFCProtocolImpl) -> a
+    31:31:void <clinit>() -> <clinit>
+com.idsmanager.idsmanageru2fclient.protocol.NFCProtocolImpl$1 -> com.idsmanager.idsmanageru2fclient.protocol.b:
+    com.idsmanager.idsmanageru2fclient.protocol.NFCProtocolImpl this$0 -> a
+    113:113:void <init>(com.idsmanager.idsmanageru2fclient.protocol.NFCProtocolImpl) -> <init>
+    116:121:void onCheckOnlyUserNotPresence() -> a
+    125:130:void onCheckOnlyBadKeyHandle() -> b
+    134:138:void onDataError(int) -> a
+    142:151:void onVersion(java.lang.String) -> a
+    155:177:void onDataResult(byte[]) -> a
+com.idsmanager.idsmanageru2fclient.protocol.NFCProtocolImpl$RegisterTask -> com.idsmanager.idsmanageru2fclient.protocol.c:
+    com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData registerDeviceData -> a
+    com.idsmanager.idsmanageru2fclient.protocol.NFCProtocolImpl this$0 -> b
+    341:343:void <init>(com.idsmanager.idsmanageru2fclient.protocol.NFCProtocolImpl,com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData) -> <init>
+    347:366:java.lang.Void doInBackground(java.lang.Void[]) -> a
+    338:338:java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.idsmanager.idsmanageru2fclient.protocol.NFCProtocolImpl$RegisterThread -> com.idsmanager.idsmanageru2fclient.protocol.d:
+    com.idsmanager.idsmanageru2fclient.domain.U2FRequest startRegisterRequest -> a
+    boolean keyHandleExist -> b
+    java.lang.String version -> c
+    com.idsmanager.idsmanageru2fclient.protocol.NFCProtocolImpl this$0 -> d
+    266:271:void <init>(com.idsmanager.idsmanageru2fclient.protocol.NFCProtocolImpl,com.idsmanager.idsmanageru2fclient.domain.U2FRequest) -> <init>
+    274:275:void setVersion(java.lang.String) -> a
+    278:279:void notify(boolean) -> a
+    284:335:void run() -> run
+com.idsmanager.idsmanageru2fclient.protocol.NFCProtocolImpl$VerifyTask -> com.idsmanager.idsmanageru2fclient.protocol.e:
+    com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData verifyDeviceData -> a
+    com.idsmanager.idsmanageru2fclient.protocol.NFCProtocolImpl this$0 -> b
+    373:375:void <init>(com.idsmanager.idsmanageru2fclient.protocol.NFCProtocolImpl,com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData) -> <init>
+    379:402:java.lang.Void doInBackground(java.lang.Void[]) -> a
+    370:370:java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.idsmanager.idsmanageru2fclient.protocol.NFCProtocolImpl$VerifyThread -> com.idsmanager.idsmanageru2fclient.protocol.f:
+    com.idsmanager.idsmanageru2fclient.domain.U2FRequest verifyRequest -> a
+    boolean keyHandleExist -> b
+    java.lang.String version -> c
+    com.idsmanager.idsmanageru2fclient.protocol.NFCProtocolImpl this$0 -> d
+    200:205:void <init>(com.idsmanager.idsmanageru2fclient.protocol.NFCProtocolImpl,com.idsmanager.idsmanageru2fclient.domain.U2FRequest) -> <init>
+    208:209:void setVersion(java.lang.String) -> a
+    212:213:void notify(boolean) -> a
+    218:260:void run() -> run
+com.idsmanager.idsmanageru2fclient.protocol.NFCProtocolImpl$VersionTask -> com.idsmanager.idsmanageru2fclient.protocol.g:
+    com.idsmanager.idsmanageru2fclient.protocol.NFCProtocolImpl this$0 -> a
+    180:180:void <init>(com.idsmanager.idsmanageru2fclient.protocol.NFCProtocolImpl) -> <init>
+    184:194:java.lang.Void doInBackground(java.lang.Void[]) -> a
+    180:180:java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.idsmanager.idsmanageru2fclient.protocol.Protocol -> com.idsmanager.idsmanageru2fclient.protocol.h:
+    void register(com.idsmanager.idsmanageru2fclient.domain.U2FRequest) -> a
+    void verify(com.idsmanager.idsmanageru2fclient.domain.U2FRequest) -> b
+    void setU2FProtocolResultCallback(com.idsmanager.idsmanageru2fclient.protocol.Protocol$U2FProtocolResultCallback) -> a
+com.idsmanager.idsmanageru2fclient.protocol.Protocol$U2FProtocolResultCallback -> com.idsmanager.idsmanageru2fclient.protocol.i:
+    void onRegisterResponse(com.idsmanager.idsmanageru2fclient.domain.FinishRegisterData) -> a
+    void onUserAction() -> a
+    void onActionResult() -> b
+    void onVerifyResponse(com.idsmanager.idsmanageru2fclient.domain.FinishVerifyData) -> a
+    void onDataError(int) -> a
+com.idsmanager.idsmanageru2fclient.protocol.ProtocolFactory -> com.idsmanager.idsmanageru2fclient.protocol.j:
+    12:20:com.idsmanager.idsmanageru2fclient.protocol.Protocol getInstance(com.idsmanager.idsmanageru2fclient.u2f.ChannelIo,int,int) -> a
+com.idsmanager.idsmanageru2fclient.protocol.QKeyProtocolImpl -> com.idsmanager.idsmanageru2fclient.protocol.k:
+    java.lang.String TAG -> a
+    com.idsmanager.idsmanageru2fclient.protocol.Protocol$U2FProtocolResultCallback u2FProtocolResultCallback -> b
+    com.idsmanager.idsmanageru2fclient.domain.ClientData clientData -> c
+    java.lang.String clientDataString -> d
+    com.idsmanager.idsmanageru2fclient.u2f.ChannelIo channelIo -> e
+    java.lang.Object request -> f
+    int type -> g
+    com.idsmanager.idsmanageru2fclient.protocol.QKeyProtocolImpl$VerifyThread verifyThread -> h
+    com.idsmanager.idsmanageru2fclient.protocol.QKeyProtocolImpl$RegisterThread registerThread -> i
+    int mState -> k
+    com.idsmanager.idsmanageru2fclient.parser.ActionHandler bluetoothActionHandler -> j
+    48:146:void <init>(com.idsmanager.idsmanageru2fclient.u2f.ChannelIo,int) -> <init>
+    58:59:void setU2FProtocolResultCallback(com.idsmanager.idsmanageru2fclient.protocol.Protocol$U2FProtocolResultCallback) -> a
+    62:64:void setState(int) -> a
+    73:84:void register(com.idsmanager.idsmanageru2fclient.domain.U2FRequest) -> a
+    88:100:void verify(com.idsmanager.idsmanageru2fclient.domain.U2FRequest) -> b
+    118:125:void sendMessage(byte[]) -> a
+    129:144:void onMessage(int,byte[]) -> a
+    545:550:byte[] intToByteArray(int) -> b
+    30:30:void access$000(com.idsmanager.idsmanageru2fclient.protocol.QKeyProtocolImpl,byte[]) -> a
+    32:32:void <clinit>() -> <clinit>
+com.idsmanager.idsmanageru2fclient.protocol.QKeyProtocolImpl$1 -> com.idsmanager.idsmanageru2fclient.protocol.l:
+    com.idsmanager.idsmanageru2fclient.protocol.QKeyProtocolImpl this$0 -> a
+    146:146:void <init>(com.idsmanager.idsmanageru2fclient.protocol.QKeyProtocolImpl) -> <init>
+    149:154:void onCheckOnlyUserNotPresence() -> a
+    158:163:void onCheckOnlyBadKeyHandle() -> b
+    167:171:void onDataError(int) -> a
+    175:184:void onVersion(java.lang.String) -> a
+    188:214:void onDataResult(byte[]) -> a
+com.idsmanager.idsmanageru2fclient.protocol.QKeyProtocolImpl$RegisterTask -> com.idsmanager.idsmanageru2fclient.protocol.m:
+    com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData registerDeviceData -> a
+    com.idsmanager.idsmanageru2fclient.protocol.QKeyProtocolImpl this$0 -> b
+    239:241:void <init>(com.idsmanager.idsmanageru2fclient.protocol.QKeyProtocolImpl,com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData) -> <init>
+    245:275:java.lang.Void doInBackground(java.lang.Void[]) -> a
+    236:236:java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.idsmanager.idsmanageru2fclient.protocol.QKeyProtocolImpl$RegisterThread -> com.idsmanager.idsmanageru2fclient.protocol.n:
+    com.idsmanager.idsmanageru2fclient.domain.U2FRequest startRegisterRequest -> a
+    boolean keyHandleExist -> b
+    java.lang.String version -> c
+    com.idsmanager.idsmanageru2fclient.protocol.QKeyProtocolImpl this$0 -> d
+    459:464:void <init>(com.idsmanager.idsmanageru2fclient.protocol.QKeyProtocolImpl,com.idsmanager.idsmanageru2fclient.domain.U2FRequest) -> <init>
+    467:468:void setVersion(java.lang.String) -> a
+    471:473:void notify(boolean) -> a
+    477:541:void run() -> run
+com.idsmanager.idsmanageru2fclient.protocol.QKeyProtocolImpl$TransactionTask -> com.idsmanager.idsmanageru2fclient.protocol.o:
+    com.idsmanager.idsmanageru2fclient.protocol.QKeyProtocolImpl this$0 -> a
+    325:327:void <init>(com.idsmanager.idsmanageru2fclient.protocol.QKeyProtocolImpl,com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData) -> <init>
+    331:369:java.lang.Void doInBackground(java.lang.Void[]) -> a
+    323:323:java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.idsmanager.idsmanageru2fclient.protocol.QKeyProtocolImpl$VerifyTask -> com.idsmanager.idsmanageru2fclient.protocol.p:
+    com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData verifyDeviceData -> b
+    com.idsmanager.idsmanageru2fclient.protocol.QKeyProtocolImpl this$0 -> c
+    282:284:void <init>(com.idsmanager.idsmanageru2fclient.protocol.QKeyProtocolImpl,com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData) -> <init>
+    288:319:java.lang.Void doInBackground(java.lang.Void[]) -> a
+    279:279:java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.idsmanager.idsmanageru2fclient.protocol.QKeyProtocolImpl$VerifyThread -> com.idsmanager.idsmanageru2fclient.protocol.q:
+    com.idsmanager.idsmanageru2fclient.domain.U2FRequest startVerifyRequest -> a
+    boolean keyHandleExist -> b
+    java.lang.String version -> c
+    com.idsmanager.idsmanageru2fclient.protocol.QKeyProtocolImpl this$0 -> d
+    375:380:void <init>(com.idsmanager.idsmanageru2fclient.protocol.QKeyProtocolImpl,com.idsmanager.idsmanageru2fclient.domain.U2FRequest) -> <init>
+    383:384:void setVersion(java.lang.String) -> a
+    387:389:void notify(boolean) -> a
+    393:453:void run() -> run
+com.idsmanager.idsmanageru2fclient.protocol.QKeyProtocolImpl$VersionTask -> com.idsmanager.idsmanageru2fclient.protocol.r:
+    com.idsmanager.idsmanageru2fclient.protocol.QKeyProtocolImpl this$0 -> a
+    217:217:void <init>(com.idsmanager.idsmanageru2fclient.protocol.QKeyProtocolImpl) -> <init>
+    220:232:java.lang.Void doInBackground(java.lang.Void[]) -> a
+    217:217:java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.idsmanager.idsmanageru2fclient.u2f.ChannelIo -> com.idsmanager.idsmanageru2fclient.u2f.a:
+    void connect() -> a
+    void stop() -> b
+    void setIoDataCallback(com.idsmanager.idsmanageru2fclient.u2f.ChannelIo$MessageCallback) -> a
+    int getState() -> c
+    void write(byte[]) -> a
+com.idsmanager.idsmanageru2fclient.u2f.ChannelIo$ChannelStateCallback -> com.idsmanager.idsmanageru2fclient.u2f.b:
+    void onConnectStart() -> c
+    void onConnect(java.lang.String) -> a
+    void connectFailed(int) -> b
+    void onConnectLost() -> d
+com.idsmanager.idsmanageru2fclient.u2f.ChannelIo$MessageCallback -> com.idsmanager.idsmanageru2fclient.u2f.c:
+    void onMessage(int,byte[]) -> a
+com.idsmanager.idsmanageru2fclient.u2f.ChannelIoFactory -> com.idsmanager.idsmanageru2fclient.u2f.d:
+    java.lang.String TAG -> a
+    13:13:void <init>() -> <init>
+    22:33:com.idsmanager.idsmanageru2fclient.u2f.ChannelIo getInstance(android.content.Context,int,com.idsmanager.idsmanageru2fclient.u2f.ChannelIo$ChannelStateCallback) -> a
+    14:14:void <clinit>() -> <clinit>
+com.idsmanager.idsmanageru2fclient.u2f.U2FService -> com.idsmanager.idsmanageru2fclient.u2f.U2FService:
+    java.lang.String TAG -> b
+    com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback sU2FResultCallback -> c
+    java.lang.String mConnectedDeviceName -> d
+    com.idsmanager.idsmanageru2fclient.u2f.ChannelIo mIo -> e
+    int optionType -> f
+    int deviceType -> g
+    com.idsmanager.idsmanageru2fclient.domain.U2FRequest u2FRequest -> h
+    android.content.BroadcastReceiver blueStatReceiver -> a
+    android.os.Handler mHandler -> i
+    28:168:void <init>() -> <init>
+    56:62:void registerBluetooth(android.content.Context,com.idsmanager.idsmanageru2fclient.domain.U2FRequest,com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback) -> a
+    65:71:void verifyBluetooth(android.content.Context,com.idsmanager.idsmanageru2fclient.domain.U2FRequest,com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback) -> b
+    74:80:void registerBle(android.content.Context,com.idsmanager.idsmanageru2fclient.domain.U2FRequest,com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback) -> c
+    83:89:void verifyBle(android.content.Context,com.idsmanager.idsmanageru2fclient.domain.U2FRequest,com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback) -> d
+    92:98:void registerNFC(android.content.Context,com.idsmanager.idsmanageru2fclient.domain.U2FRequest,com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback) -> e
+    101:107:void verifyNFC(android.content.Context,com.idsmanager.idsmanageru2fclient.domain.U2FRequest,com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback) -> f
+    110:111:void setU2FResultCallback(com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback) -> a
+    115:120:void onCreate() -> onCreate
+    124:133:int onStartCommand(android.content.Intent,int,int) -> onStartCommand
+    138:147:void onDestroy() -> onDestroy
+    152:152:android.os.IBinder onBind(android.content.Intent) -> onBind
+    156:161:void connectDevice() -> g
+    164:166:void release() -> h
+    222:226:void onError(int) -> c
+    229:239:void onConnect() -> e
+    243:245:void onRegisterResponse(com.idsmanager.idsmanageru2fclient.domain.FinishRegisterData) -> a
+    249:251:void onUserAction() -> a
+    255:257:void onActionResult() -> b
+    261:263:void onVerifyResponse(com.idsmanager.idsmanageru2fclient.domain.FinishVerifyData) -> a
+    267:269:void onDataError(int) -> a
+    273:275:void onConnectStart() -> c
+    279:282:void onConnect(java.lang.String) -> a
+    286:287:void connectFailed(int) -> b
+    291:293:void onConnectLost() -> d
+    28:28:void access$000(com.idsmanager.idsmanageru2fclient.u2f.U2FService) -> a
+    28:28:com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback access$100() -> f
+    28:28:java.lang.String access$202(com.idsmanager.idsmanageru2fclient.u2f.U2FService,java.lang.String) -> a
+    28:28:java.lang.String access$200(com.idsmanager.idsmanageru2fclient.u2f.U2FService) -> b
+    29:29:void <clinit>() -> <clinit>
+com.idsmanager.idsmanageru2fclient.u2f.U2FService$1 -> com.idsmanager.idsmanageru2fclient.u2f.e:
+    com.idsmanager.idsmanageru2fclient.u2f.U2FService this$0 -> a
+    43:43:void <init>(com.idsmanager.idsmanageru2fclient.u2f.U2FService) -> <init>
+    46:52:void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.idsmanager.idsmanageru2fclient.u2f.U2FService$2 -> com.idsmanager.idsmanageru2fclient.u2f.f:
+    com.idsmanager.idsmanageru2fclient.u2f.U2FService this$0 -> a
+    168:168:void <init>(com.idsmanager.idsmanageru2fclient.u2f.U2FService) -> <init>
+    171:218:void handleMessage(android.os.Message) -> handleMessage
+com.idsmanager.idsmanageru2fclient.u2f.ble.BleChannelIo -> com.idsmanager.idsmanageru2fclient.u2f.ble.a:
+    java.lang.String TAG -> c
+    android.content.Context mContext -> d
+    android.bluetooth.BluetoothAdapter mAdapter -> e
+    int mState -> f
+    com.idsmanager.idsmanageru2fclient.u2f.ChannelIo$MessageCallback messageCallback -> a
+    com.idsmanager.idsmanageru2fclient.u2f.ChannelIo$ChannelStateCallback stateCallback -> b
+    java.util.Timer mTimer -> g
+    com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService mBleTransmitService -> h
+    com.idsmanager.idsmanageru2fclient.u2f.ble.BleReceiver receiver -> i
+    android.content.BroadcastReceiver mGattUpdateReceiver -> j
+    java.lang.String mDeviceAddress -> k
+    android.content.ServiceConnection mServiceConnection -> l
+    38:262:void <init>(android.content.Context,com.idsmanager.idsmanageru2fclient.u2f.ChannelIo$ChannelStateCallback) -> <init>
+    82:84:void setState(int) -> a
+    87:87:int getState() -> c
+    91:96:void bleStart() -> f
+    99:106:void openBluetooth() -> g
+    109:110:void pickDevice() -> h
+    120:126:void connect() -> a
+    130:148:void stop() -> b
+    152:153:void setIoDataCallback(com.idsmanager.idsmanageru2fclient.u2f.ChannelIo$MessageCallback) -> a
+    157:163:void write(byte[]) -> a
+    166:170:void onConnect(java.lang.String) -> b
+    173:178:void connectionFailed(int) -> b
+    181:185:void connectionLost() -> i
+    188:192:void onUserAction() -> j
+    195:199:void onUserResult() -> k
+    202:211:void onMessage(java.lang.String) -> c
+    214:219:void cancelTimeoutTimer() -> l
+    222:226:void setTimeoutTimer() -> m
+    230:231:void onBluetoothOpen() -> d
+    235:245:void onBleDevicePicked(java.lang.String) -> a
+    248:259:android.content.IntentFilter makeGattUpdateIntentFilter() -> n
+    25:25:java.lang.String access$000() -> e
+    25:25:void access$100(com.idsmanager.idsmanageru2fclient.u2f.ble.BleChannelIo) -> a
+    25:25:void access$200(com.idsmanager.idsmanageru2fclient.u2f.ble.BleChannelIo,java.lang.String) -> a
+    25:25:void access$300(com.idsmanager.idsmanageru2fclient.u2f.ble.BleChannelIo,int) -> a
+    25:25:java.lang.String access$400(com.idsmanager.idsmanageru2fclient.u2f.ble.BleChannelIo) -> b
+    25:25:void access$500(com.idsmanager.idsmanageru2fclient.u2f.ble.BleChannelIo,java.lang.String) -> b
+    25:25:void access$600(com.idsmanager.idsmanageru2fclient.u2f.ble.BleChannelIo) -> c
+    25:25:void access$700(com.idsmanager.idsmanageru2fclient.u2f.ble.BleChannelIo) -> d
+    25:25:void access$800(com.idsmanager.idsmanageru2fclient.u2f.ble.BleChannelIo) -> e
+    25:25:com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService access$902(com.idsmanager.idsmanageru2fclient.u2f.ble.BleChannelIo,com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService) -> a
+    25:25:com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService access$900(com.idsmanager.idsmanageru2fclient.u2f.ble.BleChannelIo) -> f
+    26:26:void <clinit>() -> <clinit>
+com.idsmanager.idsmanageru2fclient.u2f.ble.BleChannelIo$1 -> com.idsmanager.idsmanageru2fclient.u2f.ble.b:
+    com.idsmanager.idsmanageru2fclient.u2f.ble.BleChannelIo this$0 -> a
+    39:39:void <init>(com.idsmanager.idsmanageru2fclient.u2f.ble.BleChannelIo) -> <init>
+    42:69:void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.idsmanager.idsmanageru2fclient.u2f.ble.BleChannelIo$2 -> com.idsmanager.idsmanageru2fclient.u2f.ble.c:
+    com.idsmanager.idsmanageru2fclient.u2f.ble.BleChannelIo this$0 -> a
+    262:262:void <init>(com.idsmanager.idsmanageru2fclient.u2f.ble.BleChannelIo) -> <init>
+    266:276:void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+    280:281:void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+com.idsmanager.idsmanageru2fclient.u2f.ble.BleChannelIo$TimeoutTask -> com.idsmanager.idsmanageru2fclient.u2f.ble.d:
+    com.idsmanager.idsmanageru2fclient.u2f.ble.BleChannelIo this$0 -> a
+    284:284:void <init>(com.idsmanager.idsmanageru2fclient.u2f.ble.BleChannelIo) -> <init>
+    287:289:void run() -> run
+com.idsmanager.idsmanageru2fclient.u2f.ble.BleGattAttributes -> com.idsmanager.idsmanageru2fclient.u2f.ble.e:
+    java.util.HashMap attributes -> c
+    java.lang.String HEART_RATE_MEASUREMENT -> a
+    java.lang.String CLIENT_CHARACTERISTIC_CONFIG -> b
+    25:36:void <clinit>() -> <clinit>
+com.idsmanager.idsmanageru2fclient.u2f.ble.BleReceiver -> com.idsmanager.idsmanageru2fclient.u2f.ble.BleReceiver:
+    com.idsmanager.idsmanageru2fclient.u2f.ble.BleReceiver$BluetoothStatCallback mCallback -> a
+    23:25:void <init>(com.idsmanager.idsmanageru2fclient.u2f.ble.BleReceiver$BluetoothStatCallback) -> <init>
+    29:43:void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.idsmanager.idsmanageru2fclient.u2f.ble.BleReceiver$BluetoothStatCallback -> com.idsmanager.idsmanageru2fclient.u2f.ble.f:
+    void onBluetoothOpen() -> d
+    void onBleDevicePicked(java.lang.String) -> a
+com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService -> com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService:
+    java.lang.String TAG -> g
+    android.bluetooth.BluetoothManager mBluetoothManager -> h
+    android.bluetooth.BluetoothAdapter mBluetoothAdapter -> i
+    java.lang.String mBluetoothDeviceAddress -> j
+    android.bluetooth.BluetoothGatt mBluetoothGatt -> k
+    int mConnectionState -> l
+    java.util.UUID QKEY_SERVICE_UUID -> a
+    java.util.UUID QKEY_CHAR_UUID -> b
+    java.util.UUID QKEY_NOTIFY_UUID -> c
+    java.util.Queue dataQueue -> m
+    byte[] lastPacket -> n
+    byte lastConfirm -> o
+    int resendTimes -> p
+    byte[] receivedBytes -> q
+    java.nio.ByteBuffer receivedByteBuffer -> r
+    android.bluetooth.BluetoothGattService rxService -> s
+    android.bluetooth.BluetoothGattCharacteristic rxChar -> t
+    java.util.Timer mTimer -> u
+    android.bluetooth.BluetoothGattCallback mGattCallback -> v
+    android.os.IBinder mBinder -> w
+    int MAX_PACKET_LEN -> d
+    int packetSeq -> e
+    byte errorBytes -> f
+    37:620:void <init>() -> <init>
+    186:188:void broadcastReceivedData(java.lang.String) -> b
+    192:204:void broadcastReceivedData(java.lang.String,android.bluetooth.BluetoothGattCharacteristic) -> a
+    214:214:android.os.IBinder onBind(android.content.Intent) -> onBind
+    219:220:boolean onUnbind(android.content.Intent) -> onUnbind
+    233:247:boolean initialize() -> a
+    260:286:boolean connect(java.lang.String) -> a
+    296:302:void disconnect() -> b
+    305:311:void close() -> c
+    321:330:void enableReadCharacteristicNotification() -> e
+    334:342:void setCharacteristicNotification(android.bluetooth.BluetoothGattCharacteristic,boolean) -> a
+    345:347:void setState(int) -> a
+    364:371:boolean writeU2FCharacteristic(byte[]) -> a
+    377:414:boolean sendData(byte[]) -> b
+    418:434:boolean sendNextPacket() -> f
+    439:446:boolean writePacket(byte[]) -> c
+    450:461:boolean resendPacket() -> g
+    465:473:boolean writeConfirm(byte,boolean) -> a
+    477:485:boolean reconfirm() -> h
+    489:501:void receivedConfirm(byte[]) -> d
+    504:509:boolean attachReceived(byte[]) -> e
+    516:570:boolean parseReceived(byte[]) -> f
+    574:590:void sendConfirm(byte) -> a
+    593:603:boolean sendPacket(byte[]) -> g
+    607:611:void cancelTimeoutTimer() -> i
+    614:618:void setTimeoutTimer(long) -> a
+    640:644:void release() -> j
+    647:651:void clearBuffer() -> k
+    37:37:java.lang.String access$000() -> d
+    37:37:int access$102(com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService,int) -> a
+    37:37:void access$200(com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService,java.lang.String) -> a
+    37:37:android.bluetooth.BluetoothGatt access$300(com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService) -> a
+    37:37:android.bluetooth.BluetoothGattService access$402(com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService,android.bluetooth.BluetoothGattService) -> a
+    37:37:android.bluetooth.BluetoothGattService access$400(com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService) -> b
+    37:37:android.bluetooth.BluetoothGattCharacteristic access$502(com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService,android.bluetooth.BluetoothGattCharacteristic) -> a
+    37:37:android.bluetooth.BluetoothGattCharacteristic access$500(com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService) -> c
+    37:37:void access$600(com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService) -> d
+    37:37:void access$700(com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService,java.lang.String,android.bluetooth.BluetoothGattCharacteristic) -> a
+    37:37:int access$100(com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService) -> e
+    37:37:boolean access$800(com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService) -> f
+    37:37:void access$900(com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService) -> g
+    37:37:boolean access$1000(com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService) -> h
+    38:85:void <clinit>() -> <clinit>
+com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService$1 -> com.idsmanager.idsmanageru2fclient.u2f.ble.g:
+    com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService this$0 -> a
+    105:105:void <init>(com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService) -> <init>
+    109:127:void onConnectionStateChange(android.bluetooth.BluetoothGatt,int,int) -> onConnectionStateChange
+    131:153:void onServicesDiscovered(android.bluetooth.BluetoothGatt,int) -> onServicesDiscovered
+    159:162:void onCharacteristicRead(android.bluetooth.BluetoothGatt,android.bluetooth.BluetoothGattCharacteristic,int) -> onCharacteristicRead
+    167:168:void onCharacteristicChanged(android.bluetooth.BluetoothGatt,android.bluetooth.BluetoothGattCharacteristic) -> onCharacteristicChanged
+    172:182:void onDescriptorWrite(android.bluetooth.BluetoothGatt,android.bluetooth.BluetoothGattDescriptor,int) -> onDescriptorWrite
+com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService$LocalBinder -> com.idsmanager.idsmanageru2fclient.u2f.ble.h:
+    com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService this$0 -> a
+    206:206:void <init>(com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService) -> <init>
+    208:208:com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService getService() -> a
+com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService$TimeoutTask -> com.idsmanager.idsmanageru2fclient.u2f.ble.i:
+    com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService this$0 -> a
+    620:620:void <init>(com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService) -> <init>
+    623:636:void run() -> run
+com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity -> com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity:
+    android.widget.Button scanButton -> a
+    android.widget.ProgressBar pbLoading -> b
+    android.widget.TextView tvTitle -> c
+    java.lang.String TAG -> e
+    java.lang.String EXTRA_DEVICE_ADDRESS -> d
+    boolean mScanning -> f
+    android.os.Handler mHandler -> g
+    android.bluetooth.BluetoothAdapter mBtAdapter -> h
+    com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity$BleDeviceListAdapter mBleDeviceListAdapter -> i
+    android.widget.AdapterView$OnItemClickListener mDeviceClickListener -> j
+    android.bluetooth.BluetoothAdapter$LeScanCallback mLeScanCallback -> k
+    29:208:void <init>() -> <init>
+    45:48:void open(android.content.Context) -> a
+    52:72:void onCreate(android.os.Bundle) -> onCreate
+    76:79:void onDestroy() -> onDestroy
+    82:104:void scanLeDevice(boolean) -> a
+    108:111:void onBackPressed() -> onBackPressed
+    29:29:void access$000(com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity,boolean) -> a
+    29:29:com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity$BleDeviceListAdapter access$100(com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity) -> a
+    34:36:void <clinit>() -> <clinit>
+com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity$1 -> com.idsmanager.idsmanageru2fclient.u2f.ble.j:
+    com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity this$0 -> a
+    58:58:void <init>(com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity) -> <init>
+    60:61:void onClick(android.view.View) -> onClick
+com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity$2 -> com.idsmanager.idsmanageru2fclient.u2f.ble.k:
+    com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity this$0 -> a
+    89:89:void <init>(com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity) -> <init>
+    92:93:void run() -> run
+com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity$3 -> com.idsmanager.idsmanageru2fclient.u2f.ble.l:
+    com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity this$0 -> a
+    114:114:void <init>(com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity) -> <init>
+    116:123:void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity$4 -> com.idsmanager.idsmanageru2fclient.u2f.ble.m:
+    com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity this$0 -> a
+    192:192:void <init>(com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity) -> <init>
+    196:205:void onLeScan(android.bluetooth.BluetoothDevice,int,byte[]) -> onLeScan
+com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity$4$1 -> com.idsmanager.idsmanageru2fclient.u2f.ble.n:
+    android.bluetooth.BluetoothDevice val$device -> a
+    com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity$4 this$1 -> b
+    196:196:void <init>(com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity$4,android.bluetooth.BluetoothDevice) -> <init>
+    200:203:void run() -> run
+com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity$BleDeviceListAdapter -> com.idsmanager.idsmanageru2fclient.u2f.ble.o:
+    java.util.ArrayList mLeDevices -> b
+    android.view.LayoutInflater mInflater -> c
+    com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity this$0 -> a
+    130:134:void <init>(com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity) -> <init>
+    137:140:void addDevice(android.bluetooth.BluetoothDevice) -> a
+    143:143:android.bluetooth.BluetoothDevice getDevice(int) -> a
+    152:152:int getCount() -> getCount
+    157:157:java.lang.Object getItem(int) -> getItem
+    162:162:long getItemId(int) -> getItemId
+    169:187:android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity$ViewHolder -> com.idsmanager.idsmanageru2fclient.u2f.ble.p:
+    android.widget.TextView deviceName -> a
+    android.widget.TextView deviceAddress -> b
+    208:208:void <init>() -> <init>
+com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothChannelIo -> com.idsmanager.idsmanageru2fclient.u2f.bt.a:
+    java.lang.String TAG -> d
+    java.util.UUID MY_UUID_SECURE -> e
+    java.util.UUID MY_UUID_INSECURE -> f
+    android.content.Context mContext -> g
+    android.bluetooth.BluetoothAdapter mAdapter -> h
+    com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothChannelIo$ConnectThread mConnectThread -> i
+    com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothChannelIo$ConnectedThread mConnectedThread -> j
+    int mState -> k
+    com.idsmanager.idsmanageru2fclient.u2f.ChannelIo$MessageCallback messageCallback -> a
+    com.idsmanager.idsmanageru2fclient.u2f.ChannelIo$ChannelStateCallback stateCallback -> b
+    android.bluetooth.BluetoothSocket mSocket -> c
+    com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothReceiver receiver -> l
+    java.util.Timer mTimer -> m
+    45:54:void <init>(android.content.Context,com.idsmanager.idsmanageru2fclient.u2f.ChannelIo$ChannelStateCallback) -> <init>
+    58:59:void setState(int) -> a
+    62:62:int getState() -> c
+    67:68:void setIoDataCallback(com.idsmanager.idsmanageru2fclient.u2f.ChannelIo$MessageCallback) -> a
+    73:86:void reset() -> d
+    89:97:void bluetoothStart() -> h
+    100:109:void openBluetooth() -> i
+    112:113:void pickDevice() -> j
+    117:123:void connect() -> a
+    127:142:void connected(android.bluetooth.BluetoothSocket,android.bluetooth.BluetoothDevice,java.lang.String) -> a
+    148:159:void stop() -> b
+    164:170:void write(byte[]) -> a
+    174:177:void onConnect(java.lang.String) -> b
+    180:184:void onMessage(int,byte[]) -> a
+    187:192:void connectionFailed(int) -> b
+    196:200:void connectionLost() -> k
+    204:208:void cancelTimeoutTimer() -> l
+    212:215:void setTimeoutTimer() -> m
+    219:220:void onBluetoothOpen() -> e
+    225:241:void onBluetoothDevicePicked(java.lang.String) -> a
+    25:25:java.util.UUID access$000() -> f
+    25:25:java.util.UUID access$100() -> g
+    25:25:android.bluetooth.BluetoothAdapter access$200(com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothChannelIo) -> a
+    25:25:void access$300(com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothChannelIo,int) -> a
+    25:25:com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothChannelIo$ConnectThread access$402(com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothChannelIo,com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothChannelIo$ConnectThread) -> a
+    25:25:void access$500(com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothChannelIo,android.bluetooth.BluetoothSocket,android.bluetooth.BluetoothDevice,java.lang.String) -> a
+    25:25:void access$600(com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothChannelIo,int,byte[]) -> a
+    25:25:void access$700(com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothChannelIo) -> b
+    27:31:void <clinit>() -> <clinit>
+com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothChannelIo$ConnectThread -> com.idsmanager.idsmanageru2fclient.u2f.bt.b:
+    android.bluetooth.BluetoothSocket mmSocket -> b
+    android.bluetooth.BluetoothDevice mmDevice -> c
+    java.lang.String mSocketType -> d
+    com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothChannelIo this$0 -> a
+    248:264:void <init>(com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothChannelIo,android.bluetooth.BluetoothDevice,boolean) -> <init>
+    267:287:void run() -> run
+    291:294:void cancel() -> a
+com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothChannelIo$ConnectedThread -> com.idsmanager.idsmanageru2fclient.u2f.bt.c:
+    android.bluetooth.BluetoothSocket mmSocket -> b
+    java.io.InputStream mmInStream -> c
+    java.io.OutputStream mmOutStream -> d
+    com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothChannelIo this$0 -> a
+    302:316:void <init>(com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothChannelIo,android.bluetooth.BluetoothSocket,java.lang.String) -> <init>
+    319:332:void run() -> run
+    336:341:void write(byte[]) -> a
+    345:348:void cancel() -> a
+com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothChannelIo$TimeoutTask -> com.idsmanager.idsmanageru2fclient.u2f.bt.d:
+    com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothChannelIo this$0 -> a
+    352:352:void <init>(com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothChannelIo) -> <init>
+    356:358:void run() -> run
+com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothReceiver -> com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothReceiver:
+    java.lang.String TAG -> a
+    com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothReceiver$BluetoothStatCallback mCallback -> b
+    26:28:void <init>(com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothReceiver$BluetoothStatCallback) -> <init>
+    32:47:void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    16:16:void <clinit>() -> <clinit>
+com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothReceiver$BluetoothStatCallback -> com.idsmanager.idsmanageru2fclient.u2f.bt.e:
+    void onBluetoothOpen() -> e
+    void onBluetoothDevicePicked(java.lang.String) -> a
+com.idsmanager.idsmanageru2fclient.u2f.bt.DeviceListActivity -> com.idsmanager.idsmanageru2fclient.u2f.bt.DeviceListActivity:
+    java.lang.String TAG -> b
+    java.lang.String EXTRA_DEVICE_ADDRESS -> a
+    android.bluetooth.BluetoothAdapter mBtAdapter -> c
+    android.widget.ArrayAdapter mNewDevicesArrayAdapter -> d
+    android.widget.AdapterView$OnItemClickListener mDeviceClickListener -> e
+    android.content.BroadcastReceiver mReceiver -> f
+    25:134:void <init>() -> <init>
+    36:39:void open(android.content.Context) -> a
+    43:85:void onCreate(android.os.Bundle) -> onCreate
+    89:96:void onDestroy() -> onDestroy
+    100:110:void doDiscovery() -> a
+    114:117:void onBackPressed() -> onBackPressed
+    25:25:void access$000(com.idsmanager.idsmanageru2fclient.u2f.bt.DeviceListActivity) -> a
+    25:25:android.bluetooth.BluetoothAdapter access$100(com.idsmanager.idsmanageru2fclient.u2f.bt.DeviceListActivity) -> b
+    25:25:android.widget.ArrayAdapter access$200(com.idsmanager.idsmanageru2fclient.u2f.bt.DeviceListActivity) -> c
+    27:29:void <clinit>() -> <clinit>
+com.idsmanager.idsmanageru2fclient.u2f.bt.DeviceListActivity$1 -> com.idsmanager.idsmanageru2fclient.u2f.bt.f:
+    com.idsmanager.idsmanageru2fclient.u2f.bt.DeviceListActivity this$0 -> a
+    48:48:void <init>(com.idsmanager.idsmanageru2fclient.u2f.bt.DeviceListActivity) -> <init>
+    50:52:void onClick(android.view.View) -> onClick
+com.idsmanager.idsmanageru2fclient.u2f.bt.DeviceListActivity$2 -> com.idsmanager.idsmanageru2fclient.u2f.bt.g:
+    com.idsmanager.idsmanageru2fclient.u2f.bt.DeviceListActivity this$0 -> a
+    120:120:void <init>(com.idsmanager.idsmanageru2fclient.u2f.bt.DeviceListActivity) -> <init>
+    122:131:void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.idsmanager.idsmanageru2fclient.u2f.bt.DeviceListActivity$3 -> com.idsmanager.idsmanageru2fclient.u2f.bt.h:
+    com.idsmanager.idsmanageru2fclient.u2f.bt.DeviceListActivity this$0 -> a
+    134:134:void <init>(com.idsmanager.idsmanageru2fclient.u2f.bt.DeviceListActivity) -> <init>
+    137:152:void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCAPDUError -> com.idsmanager.idsmanageru2fclient.u2f.nfc.a:
+    int code -> a
+    7:9:void <init>(int) -> <init>
+    12:12:int getCode() -> a
+com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCChannelIo -> com.idsmanager.idsmanageru2fclient.u2f.nfc.b:
+    java.lang.String TAG -> b
+    byte[] SELECT_COMMAND -> c
+    byte[] SELECT_COMMAND_YUBICO -> d
+    byte[] GET_RESPONSE_COMMAND -> e
+    android.content.Context mContext -> f
+    android.nfc.NfcAdapter mAdapter -> g
+    com.idsmanager.idsmanageru2fclient.u2f.ChannelIo$ChannelStateCallback stateCallback -> a
+    android.nfc.tech.IsoDep isoTag -> h
+    com.idsmanager.idsmanageru2fclient.u2f.ChannelIo$MessageCallback mMessageCallback -> i
+    com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCChannelIo$ConnectThread mConnectThread -> j
+    int mState -> k
+    com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCReceiver receiver -> l
+    38:44:void <init>(android.content.Context,com.idsmanager.idsmanageru2fclient.u2f.ChannelIo$ChannelStateCallback) -> <init>
+    48:57:void reset() -> d
+    61:69:void connect() -> a
+    75:83:void stop() -> b
+    87:88:void setIoDataCallback(com.idsmanager.idsmanageru2fclient.u2f.ChannelIo$MessageCallback) -> a
+    92:93:void setState(int) -> b
+    97:97:int getState() -> c
+    104:114:void write(byte[]) -> a
+    117:148:byte[] send(byte[]) -> b
+    152:164:boolean nfcStart() -> g
+    170:173:void onConnect(java.lang.String) -> a
+    176:181:void connectionFailed(int) -> c
+    184:189:void connectionLost() -> h
+    193:205:void onTagReceived(android.nfc.Tag) -> a
+    210:215:void onUserCancel(int) -> a
+    218:221:byte[] concat(byte[],byte[],int) -> a
+    23:23:byte[] access$000() -> e
+    23:23:byte[] access$100(com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCChannelIo,byte[]) -> a
+    23:23:void access$200(com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCChannelIo,java.lang.String) -> a
+    23:23:byte[] access$300() -> f
+    23:23:void access$400(com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCChannelIo,int) -> a
+    24:28:void <clinit>() -> <clinit>
+com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCChannelIo$ConnectThread -> com.idsmanager.idsmanageru2fclient.u2f.nfc.c:
+    android.nfc.tech.IsoDep mTag -> b
+    com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCChannelIo this$0 -> a
+    227:229:void <init>(com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCChannelIo,android.nfc.tech.IsoDep) -> <init>
+    232:252:void run() -> run
+    256:259:void cancel() -> a
+com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCIntentActivity -> com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCIntentActivity:
+    java.lang.String TAG -> c
+    boolean hasError -> d
+    android.content.BroadcastReceiver serviceController -> a
+    android.os.Handler mHandler -> e
+    android.widget.TextView tvPrompt -> b
+    26:49:void <init>() -> <init>
+    67:70:void open(android.content.Context) -> a
+    74:78:void onCreate(android.os.Bundle) -> onCreate
+    81:82:void initView() -> a
+    86:95:void onResume() -> onResume
+    99:103:void onPause() -> onPause
+    107:113:void onDestroy() -> onDestroy
+    117:123:void onNewIntent(android.content.Intent) -> onNewIntent
+    26:26:java.lang.String access$000() -> b
+    26:26:boolean access$102(com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCIntentActivity,boolean) -> a
+    26:26:android.os.Handler access$200(com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCIntentActivity) -> a
+    27:27:void <clinit>() -> <clinit>
+com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCIntentActivity$1 -> com.idsmanager.idsmanageru2fclient.u2f.nfc.d:
+    com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCIntentActivity this$0 -> a
+    33:33:void <init>(com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCIntentActivity) -> <init>
+    36:46:void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCIntentActivity$2 -> com.idsmanager.idsmanageru2fclient.u2f.nfc.e:
+    com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCIntentActivity this$0 -> a
+    49:49:void <init>(com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCIntentActivity) -> <init>
+    52:61:void handleMessage(android.os.Message) -> handleMessage
+com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCReceiver -> com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCReceiver:
+    java.lang.String TAG -> a
+    com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCReceiver$NFCStatCallback mCallback -> b
+    25:27:void <init>(com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCReceiver$NFCStatCallback) -> <init>
+    31:44:void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    15:15:void <clinit>() -> <clinit>
+com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCReceiver$NFCStatCallback -> com.idsmanager.idsmanageru2fclient.u2f.nfc.f:
+    void onTagReceived(android.nfc.Tag) -> a
+    void onUserCancel(int) -> a
+com.idsmanager.idsmanageru2fclient.u2f.nfc.ReceiverUtil -> com.idsmanager.idsmanageru2fclient.u2f.nfc.g:
+    15:16:android.content.Intent getStopServiceIntent() -> a
+    20:21:android.content.Intent getDataStartIntent() -> b
+    25:26:android.content.Intent getDataCancelIntent() -> c
+    31:33:android.content.Intent getSendTagIntent(android.nfc.Tag) -> a
+    37:39:android.content.Intent getCancelIntent(int) -> a
+    43:47:android.content.IntentFilter getNFCServiceIntentFilter() -> d
+com.idsmanager.idsmanageru2fclient.utils.ResourceUtil -> com.idsmanager.idsmanageru2fclient.utils.a:
+    java.lang.String TAG -> a
+    9:9:void <init>() -> <init>
+    13:13:int getLayoutId(android.content.Context,java.lang.String) -> a
+    18:18:int getStringId(android.content.Context,java.lang.String) -> b
+    33:33:int getId(android.content.Context,java.lang.String) -> c
+    10:10:void <clinit>() -> <clinit>
+org.apache.commons.codec.Charsets -> org.apache.commons.codec.a:
+    java.nio.charset.Charset ISO_8859_1 -> a
+    java.nio.charset.Charset US_ASCII -> b
+    java.nio.charset.Charset UTF_16 -> c
+    java.nio.charset.Charset UTF_16BE -> d
+    java.nio.charset.Charset UTF_16LE -> e
+    java.nio.charset.Charset UTF_8 -> f
+    99:155:void <clinit>() -> <clinit>
+org.apache.commons.codec.binary.Hex -> org.apache.commons.codec.binary.a:
+    java.nio.charset.Charset DEFAULT_CHARSET -> a
+    char[] DIGITS_LOWER -> b
+    char[] DIGITS_UPPER -> c
+    java.nio.charset.Charset charset -> d
+    109:109:char[] encodeHex(byte[]) -> a
+    125:125:char[] encodeHex(byte[],boolean) -> a
+    141:148:char[] encodeHex(byte[],char[]) -> a
+    332:332:java.lang.String toString() -> toString
+    45:63:void <clinit>() -> <clinit>
+org.apache.commons.codec.binary.StringUtils -> org.apache.commons.codec.binary.b:
+    93:96:byte[] getBytes(java.lang.String,java.nio.charset.Charset) -> a
+    235:235:byte[] getBytesUtf8(java.lang.String) -> a
+org.apache.commons.codec.digest.DigestUtils -> org.apache.commons.codec.digest.a:
+    68:70:java.security.MessageDigest getDigest(java.lang.String) -> a
+    128:128:java.security.MessageDigest getSha256Digest() -> a
+    453:453:byte[] sha256(byte[]) -> a
+    485:485:byte[] sha256(java.lang.String) -> b

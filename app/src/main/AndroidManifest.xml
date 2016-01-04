@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yalin.io2015">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:name=".application.IoApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IO2015">
+        <activity
+            android:name=".ui.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.IO2015.Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.SettingsActivity"
+            android:exported="false"
+            android:label="@string/title_settings"
+            android:launchMode="singleTop"
+            android:parentActivityName=".ui.MainActivity"></activity>
+
+        <activity
+            android:name=".ui.DeviceListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/u2f_select_device"
+            android:theme="@style/Theme.IO2015.U2FDeviceDialog" />
+
+        <activity
+            android:name=".ui.AccountActivity"
+            android:label="@string/title_account_manager"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IO2015.Account"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name="com.yalin.u2fclient.u2f.nfc.NFCIntentActivity" />
+
+        <service android:name="com.yalin.u2fclient.u2f.U2FService" />
+
+        <service android:name="com.yalin.u2fclient.u2f.ble.BleTransmitService" />
+    </application>
+
+</manifest>

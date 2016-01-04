@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">IO2015</string>
+
+    <string name="title_main">Main</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_account_manager">账号管理</string>
+
+    <string name="navdrawer_item_explore">Explore</string>
+    <string name="navdrawer_item_explore_a11y">Explore Google I/O</string>
+    <string name="navdrawer_item_map">Map</string>
+    <string name="navdrawer_item_my_schedule">My Schedule</string>
+    <string name="navdrawer_item_io_live">I/O Live</string>
+    <string name="navdrawer_item_settings">Settings</string>
+    <string name="navdrawer_item_sign_in">Sign in</string>
+    <string name="navdrawer_item_social">Social</string>
+    <string name="navdrawer_item_video_library">Videos</string>
+    <string name="navdrawer_item_debug">Debug</string>
+    <string name="description_about">About</string>
+
+    <string name="navdrawer_selected_menu_item_a11y_wrapper">%1$s selected menu item</string>
+    <string name="navdrawer_menu_item_a11y_wrapper">%1$s  menu item</string>
+
+    <string name="logout">退出登陆</string>
+    <string name="not_login">您还未登陆</string>
+    <string name="login">登陆</string>
+    <string name="register">注册</string>
+    <string name="account">用户名</string>
+    <string name="password">密码</string>
+    <string name="pin_code">PinCode</string>
+    <string name="bind">绑定登录</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+
+    <string name="input_account_login">输入账号密码登陆</string>
+    <string name="login_success">登陆成功</string>
+    <string name="user_is_null">用户名或密码不能为空</string>
+
+    <string name="select_verify_device">选择设备认证</string>
+    <string name="verify_success">二次认证成功</string>
+    <string name="verify_prompt">你的账号已开启二次认证,登录成功之前需要进行二次认证…</string>
+
+    <string name="registration_success">注册设备成功</string>
+    <string name="authentication_success">二次认证成功</string>
+
+    <string name="u2f_title_paired_devices">已配对设备</string>
+    <string name="u2f_title_other_devices">可连接设备</string>
+    <string name="u2f_button_scan">浏览设备</string>
+    <string name="u2f_none_paired">没有配对的设备</string>
+    <string name="u2f_none_found">没有发现设备</string>
+    <string name="u2f_scanning">设备搜索中…</string>
+    <string name="u2f_select_device">选择一个设备连接</string>
+    <string name="u2f_nfc_prompt">请将NFC设备贴在手机背面</string>
+    <string name="u2f_nfc_prompt_data_start">正在和设备通信,请不要拿走设备…</string>
+    <string name="u2f_nfc_prompt_data_cancel">设备超出距离,通信失败\n请重新将设备靠近手机!</string>
+    <string name="u2f_unknown_device">未知设备</string>
+
+    <string name="no_device_error">你没有注册U2F设备!</string>
+    <string name="network_error_info">访问出错,请检查你的网络!</string>
+    <string name="server_error_info">服务器没有响应!</string>
+    <string name="unknown_error">未知错误,请重试!</string>
+
+    <string name="u2f_option_error">U2F操作失败</string>
+    <string name="bluetooth_connect_failed">蓝牙连接失败,请重试</string>
+    <string name="bluetooth_data_error">处理数据失败</string>
+    <string name="user_not_register_this_device">此设备不是你的U2F设备</string>
+    <string name="user_has_registered">你已经注册过此设备</string>
+    <string name="device_version_not_support">设备版本不支持</string>
+    <string name="nfc_not_available">你的设备不支持NFC</string>
+    <string name="nfc_not_opened">你没有开启NFC功能,请在设置界面打开</string>
+    <string name="u2f_option_not_supported">该设备不支持此操作</string>
+    <string name="u2f_data_timeout">请求数据超时,请重试</string>
+    <string name="u2f_bluetooth_refuse">蓝牙访问出错,请检查此设备是否是U2F设备</string>
+    <string name="u2f_nfc_connect_failed">NFC连接失败,请重试</string>
+    <string name="u2f_option_timeout">设备操作超时,请重试</string>
+</resources>

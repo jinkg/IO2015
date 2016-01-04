@@ -1,0 +1,245 @@
+com.google.gson.FieldNamingPolicy: com.google.gson.FieldNamingPolicy[] values()
+com.google.gson.FieldNamingPolicy: com.google.gson.FieldNamingPolicy valueOf(java.lang.String)
+com.google.gson.JsonIOException: long serialVersionUID
+com.google.gson.JsonParseException: long serialVersionUID
+com.google.gson.JsonSyntaxException: long serialVersionUID
+com.google.gson.LongSerializationPolicy: com.google.gson.LongSerializationPolicy[] values()
+com.google.gson.LongSerializationPolicy: com.google.gson.LongSerializationPolicy valueOf(java.lang.String)
+com.google.gson.internal.$Gson$Types$GenericArrayTypeImpl: long serialVersionUID
+com.google.gson.internal.$Gson$Types$ParameterizedTypeImpl: long serialVersionUID
+com.google.gson.internal.$Gson$Types$WildcardTypeImpl: long serialVersionUID
+com.google.gson.internal.LazilyParsedNumber: java.lang.Object writeReplace()
+com.google.gson.internal.LinkedHashTreeMap: java.lang.Object writeReplace()
+com.google.gson.internal.LinkedTreeMap: java.lang.Object writeReplace()
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken[] values()
+com.google.gson.stream.JsonToken: com.google.gson.stream.JsonToken valueOf(java.lang.String)
+com.google.gson.stream.MalformedJsonException: long serialVersionUID
+com.idsmanager.idsmanageru2fclient.U2FClientApi
+com.idsmanager.idsmanageru2fclient.U2FClientApi: java.lang.String TAG
+com.idsmanager.idsmanageru2fclient.U2FClientApi: android.content.Context applicationContext
+com.idsmanager.idsmanageru2fclient.U2FClientApi: U2FClientApi()
+com.idsmanager.idsmanageru2fclient.U2FClientApi: void init(android.content.Context)
+com.idsmanager.idsmanageru2fclient.U2FClientApi: android.content.Context getContext()
+com.idsmanager.idsmanageru2fclient.U2FClientApi: void startBluetoothRegister(com.idsmanager.idsmanageru2fclient.domain.U2FRequest,com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback)
+com.idsmanager.idsmanageru2fclient.U2FClientApi: void startBluetoothVerify(com.idsmanager.idsmanageru2fclient.domain.U2FRequest,com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback)
+com.idsmanager.idsmanageru2fclient.U2FClientApi: void startBluetoothTransactionConfirm(com.idsmanager.idsmanageru2fclient.domain.U2FRequest,com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback)
+com.idsmanager.idsmanageru2fclient.U2FClientApi: void startBleRegister(com.idsmanager.idsmanageru2fclient.domain.U2FRequest,com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback)
+com.idsmanager.idsmanageru2fclient.U2FClientApi: void startBleVerify(com.idsmanager.idsmanageru2fclient.domain.U2FRequest,com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback)
+com.idsmanager.idsmanageru2fclient.U2FClientApi: void startBleTransactionConfirm(com.idsmanager.idsmanageru2fclient.domain.U2FRequest,com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback)
+com.idsmanager.idsmanageru2fclient.U2FClientApi: void startNFCRegister(com.idsmanager.idsmanageru2fclient.domain.U2FRequest,com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback)
+com.idsmanager.idsmanageru2fclient.U2FClientApi: void startNFCVerify(com.idsmanager.idsmanageru2fclient.domain.U2FRequest,com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback)
+com.idsmanager.idsmanageru2fclient.U2FClientApi: void cancelU2F()
+com.idsmanager.idsmanageru2fclient.U2FClientApi: void setUID(byte[])
+com.idsmanager.idsmanageru2fclient.U2FClientApi: void synTime(java.lang.Object)
+com.idsmanager.idsmanageru2fclient.U2FClientApi: void <clinit>()
+com.idsmanager.idsmanageru2fclient.domain.ClientData
+com.idsmanager.idsmanageru2fclient.domain.ClientData: java.lang.String typ
+com.idsmanager.idsmanageru2fclient.domain.ClientData: java.lang.String challenge
+com.idsmanager.idsmanageru2fclient.domain.ClientData: java.lang.String origin
+com.idsmanager.idsmanageru2fclient.domain.ClientData: ClientData(java.lang.String,java.lang.String,java.lang.String)
+com.idsmanager.idsmanageru2fclient.domain.ClientData: java.lang.String toJsonString()
+com.idsmanager.idsmanageru2fclient.domain.FinishRegisterData
+com.idsmanager.idsmanageru2fclient.domain.FinishRegisterData: java.lang.String registrationData
+com.idsmanager.idsmanageru2fclient.domain.FinishRegisterData: java.lang.String clientData
+com.idsmanager.idsmanageru2fclient.domain.FinishRegisterData: FinishRegisterData(java.lang.String,java.lang.String)
+com.idsmanager.idsmanageru2fclient.domain.FinishRegisterData: java.lang.String getRegistrationData()
+com.idsmanager.idsmanageru2fclient.domain.FinishRegisterData: java.lang.String getClientData()
+com.idsmanager.idsmanageru2fclient.domain.FinishRegisterData: java.lang.String toJsonString()
+com.idsmanager.idsmanageru2fclient.domain.FinishVerifyData
+com.idsmanager.idsmanageru2fclient.domain.FinishVerifyData: java.lang.String signatureData
+com.idsmanager.idsmanageru2fclient.domain.FinishVerifyData: java.lang.String clientData
+com.idsmanager.idsmanageru2fclient.domain.FinishVerifyData: java.lang.String keyHandle
+com.idsmanager.idsmanageru2fclient.domain.FinishVerifyData: FinishVerifyData(java.lang.String,java.lang.String,java.lang.String)
+com.idsmanager.idsmanageru2fclient.domain.FinishVerifyData: java.lang.String getSignatureData()
+com.idsmanager.idsmanageru2fclient.domain.FinishVerifyData: java.lang.String getClientData()
+com.idsmanager.idsmanageru2fclient.domain.FinishVerifyData: java.lang.String getKeyHandle()
+com.idsmanager.idsmanageru2fclient.domain.FinishVerifyData: java.lang.String toJsonString()
+com.idsmanager.idsmanageru2fclient.domain.JsonStringInterface
+com.idsmanager.idsmanageru2fclient.domain.JsonStringInterface: java.lang.String toJsonString()
+com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData
+com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData: java.lang.String challenge
+com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData: java.lang.String version
+com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData: java.lang.String appId
+com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData: android.os.Parcelable$Creator CREATOR
+com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData: java.lang.String getVersion()
+com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData: void setVersion(java.lang.String)
+com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData: java.lang.String getChallenge()
+com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData: void setChallenge(java.lang.String)
+com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData: java.lang.String getAppId()
+com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData: void setAppId(java.lang.String)
+com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData: StartRegisterDeviceData(android.os.Parcel)
+com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData: int describeContents()
+com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData: void writeToParcel(android.os.Parcel,int)
+com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData: void <clinit>()
+com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData$1
+com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData$1: StartRegisterDeviceData$1()
+com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData$1: com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData createFromParcel(android.os.Parcel)
+com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData$1: com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData[] newArray(int)
+com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData$1: java.lang.Object[] newArray(int)
+com.idsmanager.idsmanageru2fclient.domain.StartRegisterDeviceData$1: java.lang.Object createFromParcel(android.os.Parcel)
+com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData
+com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData: java.lang.String challenge
+com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData: java.lang.String version
+com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData: java.lang.String appId
+com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData: java.lang.String keyHandle
+com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData: android.os.Parcelable$Creator CREATOR
+com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData: StartVerifyDeviceData(android.os.Parcel)
+com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData: java.lang.String getChallenge()
+com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData: void setChallenge(java.lang.String)
+com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData: java.lang.String getVersion()
+com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData: void setVersion(java.lang.String)
+com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData: java.lang.String getAppId()
+com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData: void setAppId(java.lang.String)
+com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData: java.lang.String getKeyHandle()
+com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData: void setKeyHandle(java.lang.String)
+com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData: int describeContents()
+com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData: void writeToParcel(android.os.Parcel,int)
+com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData: void <clinit>()
+com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData$1
+com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData$1: StartVerifyDeviceData$1()
+com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData$1: com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData createFromParcel(android.os.Parcel)
+com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData$1: com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData[] newArray(int)
+com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData$1: java.lang.Object[] newArray(int)
+com.idsmanager.idsmanageru2fclient.domain.StartVerifyDeviceData$1: java.lang.Object createFromParcel(android.os.Parcel)
+com.idsmanager.idsmanageru2fclient.domain.U2FRequest
+com.idsmanager.idsmanageru2fclient.domain.U2FRequest: java.lang.String TYPE_REGISTER
+com.idsmanager.idsmanageru2fclient.domain.U2FRequest: java.lang.String TYPE_VERIFY
+com.idsmanager.idsmanageru2fclient.domain.U2FRequest: java.lang.String TYPE_TRANSACTION
+com.idsmanager.idsmanageru2fclient.domain.U2FRequest: java.util.ArrayList registerRequests
+com.idsmanager.idsmanageru2fclient.domain.U2FRequest: java.util.ArrayList authenticateRequests
+com.idsmanager.idsmanageru2fclient.domain.U2FRequest: java.lang.String type
+com.idsmanager.idsmanageru2fclient.domain.U2FRequest: android.os.Parcelable$Creator CREATOR
+com.idsmanager.idsmanageru2fclient.domain.U2FRequest: U2FRequest(android.os.Parcel)
+com.idsmanager.idsmanageru2fclient.domain.U2FRequest: java.util.ArrayList getRegisterRequests()
+com.idsmanager.idsmanageru2fclient.domain.U2FRequest: void setRegisterRequests(java.util.ArrayList)
+com.idsmanager.idsmanageru2fclient.domain.U2FRequest: java.util.ArrayList getAuthenticateRequests()
+com.idsmanager.idsmanageru2fclient.domain.U2FRequest: void setAuthenticateRequests(java.util.ArrayList)
+com.idsmanager.idsmanageru2fclient.domain.U2FRequest: java.lang.String getType()
+com.idsmanager.idsmanageru2fclient.domain.U2FRequest: void setType(java.lang.String)
+com.idsmanager.idsmanageru2fclient.domain.U2FRequest: int describeContents()
+com.idsmanager.idsmanageru2fclient.domain.U2FRequest: void writeToParcel(android.os.Parcel,int)
+com.idsmanager.idsmanageru2fclient.domain.U2FRequest: void <clinit>()
+com.idsmanager.idsmanageru2fclient.domain.U2FRequest$1
+com.idsmanager.idsmanageru2fclient.domain.U2FRequest$1: U2FRequest$1()
+com.idsmanager.idsmanageru2fclient.domain.U2FRequest$1: com.idsmanager.idsmanageru2fclient.domain.U2FRequest createFromParcel(android.os.Parcel)
+com.idsmanager.idsmanageru2fclient.domain.U2FRequest$1: com.idsmanager.idsmanageru2fclient.domain.U2FRequest[] newArray(int)
+com.idsmanager.idsmanageru2fclient.domain.U2FRequest$1: java.lang.Object[] newArray(int)
+com.idsmanager.idsmanageru2fclient.domain.U2FRequest$1: java.lang.Object createFromParcel(android.os.Parcel)
+com.idsmanager.idsmanageru2fclient.interfaces.U2FErrorCode
+com.idsmanager.idsmanageru2fclient.interfaces.U2FErrorCode: int ERROR_BLUETOOTH_NOT_AVAILABLE
+com.idsmanager.idsmanageru2fclient.interfaces.U2FErrorCode: int ERROR_BLUETOOTH_REFUSED
+com.idsmanager.idsmanageru2fclient.interfaces.U2FErrorCode: int ERROR_BLUETOOTH_NOT_PAIR
+com.idsmanager.idsmanageru2fclient.interfaces.U2FErrorCode: int ERROR_BLUETOOTH_CONNECT_FAILED
+com.idsmanager.idsmanageru2fclient.interfaces.U2FErrorCode: int ERROR_DATA_ERROR
+com.idsmanager.idsmanageru2fclient.interfaces.U2FErrorCode: int ERROR_USER_NOT_REGISTER
+com.idsmanager.idsmanageru2fclient.interfaces.U2FErrorCode: int ERROR_USER_CANCEL
+com.idsmanager.idsmanageru2fclient.interfaces.U2FErrorCode: int ERROR_USER_REGISTERED
+com.idsmanager.idsmanageru2fclient.interfaces.U2FErrorCode: int ERROR_DEVICE_VERSION_NOT_SUPPORT
+com.idsmanager.idsmanageru2fclient.interfaces.U2FErrorCode: int ERROR_USER_PRESENCE_TIME_OUT
+com.idsmanager.idsmanageru2fclient.interfaces.U2FErrorCode: int ERROR_NFC_NOT_AVAILABLE
+com.idsmanager.idsmanageru2fclient.interfaces.U2FErrorCode: int ERROR_NFC_CONNECT_ERROR
+com.idsmanager.idsmanageru2fclient.interfaces.U2FErrorCode: int ERROR_NFC_NOT_OPENED
+com.idsmanager.idsmanageru2fclient.interfaces.U2FErrorCode: int ERROR_TYPE_ERROR
+com.idsmanager.idsmanageru2fclient.interfaces.U2FErrorCode: int ERROR_DATA_TIMEOUT
+com.idsmanager.idsmanageru2fclient.interfaces.U2FErrorCode: int ERROR_BLE_SYSTEM_NOT_SUPPORT
+com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback
+com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback: void onConnectStart()
+com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback: void onConnect(java.lang.String)
+com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback: void onUserAction()
+com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback: void onActionFinish()
+com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback: void onRegisterResponse(com.idsmanager.idsmanageru2fclient.domain.FinishRegisterData)
+com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback: void onVerifyResponse(com.idsmanager.idsmanageru2fclient.domain.FinishVerifyData)
+com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback: void onError(int)
+com.idsmanager.idsmanageru2fclient.interfaces.U2FResultCallback: void onConnectLost()
+com.idsmanager.idsmanageru2fclient.u2f.U2FService
+com.idsmanager.idsmanageru2fclient.u2f.U2FService: U2FService()
+com.idsmanager.idsmanageru2fclient.u2f.ble.BleReceiver
+com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService
+com.idsmanager.idsmanageru2fclient.u2f.ble.BleTransmitService: BleTransmitService()
+com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity
+com.idsmanager.idsmanageru2fclient.u2f.ble.DeviceListActivity: DeviceListActivity()
+com.idsmanager.idsmanageru2fclient.u2f.bt.BluetoothReceiver
+com.idsmanager.idsmanageru2fclient.u2f.bt.DeviceListActivity
+com.idsmanager.idsmanageru2fclient.u2f.bt.DeviceListActivity: DeviceListActivity()
+com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCIntentActivity
+com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCIntentActivity: NFCIntentActivity()
+com.idsmanager.idsmanageru2fclient.u2f.nfc.NFCReceiver
+org.apache.commons.codec.DecoderException: long serialVersionUID
+org.apache.commons.codec.EncoderException: long serialVersionUID
+org.apache.commons.codec.digest.HmacAlgorithms: org.apache.commons.codec.digest.HmacAlgorithms[] values()
+org.apache.commons.codec.digest.HmacAlgorithms: org.apache.commons.codec.digest.HmacAlgorithms valueOf(java.lang.String)
+org.apache.commons.codec.language.bm.NameType: org.apache.commons.codec.language.bm.NameType[] values()
+org.apache.commons.codec.language.bm.NameType: org.apache.commons.codec.language.bm.NameType valueOf(java.lang.String)
+org.apache.commons.codec.language.bm.RuleType: org.apache.commons.codec.language.bm.RuleType[] values()
+org.apache.commons.codec.language.bm.RuleType: org.apache.commons.codec.language.bm.RuleType valueOf(java.lang.String)
+org.spongycastle.asn1.eac.BidirectionalMap: long serialVersionUID
+org.spongycastle.crypto.tls.TlsFatalAlert: long serialVersionUID
+org.spongycastle.crypto.tls.TlsRuntimeException: long serialVersionUID
+org.spongycastle.jcajce.provider.asymmetric.dh.BCDHPrivateKey: long serialVersionUID
+org.spongycastle.jcajce.provider.asymmetric.dh.BCDHPrivateKey: void readObject(java.io.ObjectInputStream)
+org.spongycastle.jcajce.provider.asymmetric.dh.BCDHPrivateKey: void writeObject(java.io.ObjectOutputStream)
+org.spongycastle.jcajce.provider.asymmetric.dh.BCDHPublicKey: long serialVersionUID
+org.spongycastle.jcajce.provider.asymmetric.dh.BCDHPublicKey: void readObject(java.io.ObjectInputStream)
+org.spongycastle.jcajce.provider.asymmetric.dh.BCDHPublicKey: void writeObject(java.io.ObjectOutputStream)
+org.spongycastle.jcajce.provider.asymmetric.dsa.BCDSAPrivateKey: long serialVersionUID
+org.spongycastle.jcajce.provider.asymmetric.dsa.BCDSAPrivateKey: void readObject(java.io.ObjectInputStream)
+org.spongycastle.jcajce.provider.asymmetric.dsa.BCDSAPrivateKey: void writeObject(java.io.ObjectOutputStream)
+org.spongycastle.jcajce.provider.asymmetric.dsa.BCDSAPublicKey: long serialVersionUID
+org.spongycastle.jcajce.provider.asymmetric.dsa.BCDSAPublicKey: void readObject(java.io.ObjectInputStream)
+org.spongycastle.jcajce.provider.asymmetric.dsa.BCDSAPublicKey: void writeObject(java.io.ObjectOutputStream)
+org.spongycastle.jcajce.provider.asymmetric.ec.BCECPrivateKey: long serialVersionUID
+org.spongycastle.jcajce.provider.asymmetric.ec.BCECPrivateKey: void readObject(java.io.ObjectInputStream)
+org.spongycastle.jcajce.provider.asymmetric.ec.BCECPrivateKey: void writeObject(java.io.ObjectOutputStream)
+org.spongycastle.jcajce.provider.asymmetric.ec.BCECPublicKey: long serialVersionUID
+org.spongycastle.jcajce.provider.asymmetric.ec.BCECPublicKey: void readObject(java.io.ObjectInputStream)
+org.spongycastle.jcajce.provider.asymmetric.ec.BCECPublicKey: void writeObject(java.io.ObjectOutputStream)
+org.spongycastle.jcajce.provider.asymmetric.ecgost.BCECGOST3410PrivateKey: long serialVersionUID
+org.spongycastle.jcajce.provider.asymmetric.ecgost.BCECGOST3410PrivateKey: void readObject(java.io.ObjectInputStream)
+org.spongycastle.jcajce.provider.asymmetric.ecgost.BCECGOST3410PrivateKey: void writeObject(java.io.ObjectOutputStream)
+org.spongycastle.jcajce.provider.asymmetric.ecgost.BCECGOST3410PublicKey: long serialVersionUID
+org.spongycastle.jcajce.provider.asymmetric.ecgost.BCECGOST3410PublicKey: void readObject(java.io.ObjectInputStream)
+org.spongycastle.jcajce.provider.asymmetric.ecgost.BCECGOST3410PublicKey: void writeObject(java.io.ObjectOutputStream)
+org.spongycastle.jcajce.provider.asymmetric.elgamal.BCElGamalPrivateKey: long serialVersionUID
+org.spongycastle.jcajce.provider.asymmetric.elgamal.BCElGamalPrivateKey: void readObject(java.io.ObjectInputStream)
+org.spongycastle.jcajce.provider.asymmetric.elgamal.BCElGamalPrivateKey: void writeObject(java.io.ObjectOutputStream)
+org.spongycastle.jcajce.provider.asymmetric.elgamal.BCElGamalPublicKey: long serialVersionUID
+org.spongycastle.jcajce.provider.asymmetric.elgamal.BCElGamalPublicKey: void readObject(java.io.ObjectInputStream)
+org.spongycastle.jcajce.provider.asymmetric.elgamal.BCElGamalPublicKey: void writeObject(java.io.ObjectOutputStream)
+org.spongycastle.jcajce.provider.asymmetric.gost.BCGOST3410PrivateKey: long serialVersionUID
+org.spongycastle.jcajce.provider.asymmetric.gost.BCGOST3410PrivateKey: void readObject(java.io.ObjectInputStream)
+org.spongycastle.jcajce.provider.asymmetric.gost.BCGOST3410PrivateKey: void writeObject(java.io.ObjectOutputStream)
+org.spongycastle.jcajce.provider.asymmetric.gost.BCGOST3410PublicKey: long serialVersionUID
+org.spongycastle.jcajce.provider.asymmetric.gost.BCGOST3410PublicKey: void readObject(java.io.ObjectInputStream)
+org.spongycastle.jcajce.provider.asymmetric.gost.BCGOST3410PublicKey: void writeObject(java.io.ObjectOutputStream)
+org.spongycastle.jcajce.provider.asymmetric.rsa.BCRSAPrivateCrtKey: long serialVersionUID
+org.spongycastle.jcajce.provider.asymmetric.rsa.BCRSAPrivateKey: long serialVersionUID
+org.spongycastle.jcajce.provider.asymmetric.rsa.BCRSAPrivateKey: void readObject(java.io.ObjectInputStream)
+org.spongycastle.jcajce.provider.asymmetric.rsa.BCRSAPrivateKey: void writeObject(java.io.ObjectOutputStream)
+org.spongycastle.jcajce.provider.asymmetric.rsa.BCRSAPublicKey: long serialVersionUID
+org.spongycastle.jce.provider.JCEDHPrivateKey: long serialVersionUID
+org.spongycastle.jce.provider.JCEDHPrivateKey: void readObject(java.io.ObjectInputStream)
+org.spongycastle.jce.provider.JCEDHPrivateKey: void writeObject(java.io.ObjectOutputStream)
+org.spongycastle.jce.provider.JCEDHPublicKey: long serialVersionUID
+org.spongycastle.jce.provider.JCEDHPublicKey: void readObject(java.io.ObjectInputStream)
+org.spongycastle.jce.provider.JCEDHPublicKey: void writeObject(java.io.ObjectOutputStream)
+org.spongycastle.jce.provider.JCEECPrivateKey: void readObject(java.io.ObjectInputStream)
+org.spongycastle.jce.provider.JCEECPrivateKey: void writeObject(java.io.ObjectOutputStream)
+org.spongycastle.jce.provider.JCEECPublicKey: void readObject(java.io.ObjectInputStream)
+org.spongycastle.jce.provider.JCEECPublicKey: void writeObject(java.io.ObjectOutputStream)
+org.spongycastle.jce.provider.JCEElGamalPrivateKey: long serialVersionUID
+org.spongycastle.jce.provider.JCEElGamalPrivateKey: void readObject(java.io.ObjectInputStream)
+org.spongycastle.jce.provider.JCEElGamalPrivateKey: void writeObject(java.io.ObjectOutputStream)
+org.spongycastle.jce.provider.JCEElGamalPublicKey: long serialVersionUID
+org.spongycastle.jce.provider.JCEElGamalPublicKey: void readObject(java.io.ObjectInputStream)
+org.spongycastle.jce.provider.JCEElGamalPublicKey: void writeObject(java.io.ObjectOutputStream)
+org.spongycastle.jce.provider.JCERSAPrivateCrtKey: long serialVersionUID
+org.spongycastle.jce.provider.JCERSAPrivateKey: long serialVersionUID
+org.spongycastle.jce.provider.JCERSAPrivateKey: void readObject(java.io.ObjectInputStream)
+org.spongycastle.jce.provider.JCERSAPrivateKey: void writeObject(java.io.ObjectOutputStream)
+org.spongycastle.jce.provider.JCERSAPublicKey: long serialVersionUID
+org.spongycastle.jce.provider.JDKDSAPrivateKey: long serialVersionUID
+org.spongycastle.jce.provider.JDKDSAPrivateKey: void readObject(java.io.ObjectInputStream)
+org.spongycastle.jce.provider.JDKDSAPrivateKey: void writeObject(java.io.ObjectOutputStream)
+org.spongycastle.jce.provider.JDKDSAPublicKey: long serialVersionUID
+org.spongycastle.jce.provider.JDKDSAPublicKey: void readObject(java.io.ObjectInputStream)
+org.spongycastle.jce.provider.JDKDSAPublicKey: void writeObject(java.io.ObjectOutputStream)

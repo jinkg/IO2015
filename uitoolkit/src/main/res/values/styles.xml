@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BtnFollowingStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_following</item>
+    </style>
+
+    <style name="PersonalInfoTextStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">@dimen/me_login_button_width</item>
+    </style>
+
+    <style name="PersonalInfoTextStyle.Setting">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="PersonalInfoRightImageStyle">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:src">@drawable/right_arrow_more</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="MeTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingLeft">11dp</item>
+        <item name="android:paddingRight">11dp</item>
+        <item name="android:drawablePadding">20dp</item>
+        <item name="android:drawableRight">@drawable/right_arrow_more</item>
+        <item name="android:background">@drawable/other_options_selector</item>
+    </style>
+
+    <style name="Snackbar" />
+
+    <style name="Snackbar.Text">
+        <item name="android:paddingBottom">@dimen/sb__text_padding_bottom</item>
+        <item name="android:paddingLeft">@dimen/sb__text_padding_left</item>
+        <item name="android:paddingTop">@dimen/sb__text_padding_top</item>
+        <item name="android:paddingRight">@dimen/sb__text_padding_right</item>
+        <item name="android:textSize">@dimen/sb__text_size</item>
+        <item name="android:textColor">@color/sb__text_color</item>
+    </style>
+
+    <style name="Snackbar.Text.Action">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/sb__action_text_color</item>
+        <item name="android:background">@drawable/sb__btn_bg</item>
+    </style>
+
+</resources>
