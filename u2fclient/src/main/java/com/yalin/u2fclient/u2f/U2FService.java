@@ -28,7 +28,12 @@ import static com.yalin.u2fclient.constants.Constants.*;
  */
 public class U2FService extends Service implements Protocol.U2FProtocolResultCallback {
     private static final String TAG = U2FService.class.getSimpleName();
+    private static final int STATE_IDLE = 1;
+    private static final int STATE_CONNECTING = 2;
+
     private static U2FResultCallback sU2FResultCallback;
+
+    private int mState = STATE_IDLE;
 
     private String mConnectedDeviceName = null;
     private Protocol mProtocolImpl;
@@ -125,12 +130,10 @@ public class U2FService extends Service implements Protocol.U2FProtocolResultCal
         if (intent == null) {
             return START_STICKY;
         }
-        int optionType = intent.getIntExtra(Protocol.OPTION_TYPE_KEY, Protocol.REGISTER_OPERATE_TYPE);
-        if (optionType == Protocol.SEARCH_BLUETOOTH_OPERATE_TYPE) {
-
-        } else {
-            doU2f(intent);
+        if (mState == STATE_CONNECTING) {
+            return START_STICKY;
         }
+        doU2f(intent);
 
         return START_STICKY;
     }
@@ -158,14 +161,18 @@ public class U2FService extends Service implements Protocol.U2FProtocolResultCal
         if (mProtocolImpl != null) {
             mProtocolImpl.release();
         }
-
+        mState = STATE_CONNECTING;
         mProtocolImpl = ProtocolFactory.getInstance(this, intent, mHandler, this);
-
-        mProtocolImpl.start();
+        if (mProtocolImpl != null) {
+            mProtocolImpl.start();
+        } else {
+            mState = STATE_IDLE;
+        }
     }
 
     private void release() {
         sU2FResultCallback = null;
+        mState = STATE_IDLE;
         stopSelf();
     }
 

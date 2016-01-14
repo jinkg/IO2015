@@ -12,6 +12,7 @@ import android.view.View;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
+import com.yalin.io2015.data.User;
 import com.yalin.u2fclient.U2FClientApi;
 import com.yalin.u2fclient.domain.FinishRegisterData;
 import com.yalin.u2fclient.domain.FinishVerifyData;
@@ -80,7 +81,6 @@ public class MainActivity extends BaseLoadActivity implements View.OnClickListen
             case R.id.btn_show2:
                 mode = REGISTRATION;
                 testStartRegistration();
-//                testFinishRegistration();
                 break;
             case R.id.btn_show3:
                 mode = VERIFY;
@@ -93,7 +93,7 @@ public class MainActivity extends BaseLoadActivity implements View.OnClickListen
     }
 
     private void testStartRegistration() {
-        String username = "test";
+        String username = User.getUserAccount(getApplicationContext());
         showLoading();
         RequestQueue requestQueue = RequestQueueHelper.getInstance(getApplicationContext());
         GetRequest<StartU2FResponse> request = new GetRequest<>(getApplicationContext(), NetService.startRegistration(username), StartU2FResponse.class,
@@ -115,7 +115,7 @@ public class MainActivity extends BaseLoadActivity implements View.OnClickListen
     }
 
     private void testFinishRegistration(FinishRegisterData data) {
-        String username = "test";
+        String username = User.getUserAccount(getApplicationContext());
         showLoading();
         RequestQueue requestQueue = RequestQueueHelper.getInstance(getApplicationContext());
         PostRequest<BaseResponse> request = new PostRequest<>(getApplicationContext(), NetService.FINISH_REGISTRATION_URL, BaseResponse.class, NetService.finishRegistration(username, data.toJsonString()),
@@ -137,7 +137,7 @@ public class MainActivity extends BaseLoadActivity implements View.OnClickListen
     }
 
     private void testStartVerify() {
-        String username = "test";
+        String username = User.getUserAccount(getApplicationContext());
         showLoading();
         RequestQueue requestQueue = RequestQueueHelper.getInstance(getApplicationContext());
         GetRequest<StartU2FResponse> request = new GetRequest<>(getApplicationContext(), NetService.startVerify(username), StartU2FResponse.class,
@@ -159,7 +159,7 @@ public class MainActivity extends BaseLoadActivity implements View.OnClickListen
     }
 
     private void testFinishVerify(FinishVerifyData data) {
-        String username = "test";
+        String username = User.getUserAccount(getApplicationContext());
         showLoading();
         RequestQueue requestQueue = RequestQueueHelper.getInstance(getApplicationContext());
         PostRequest<BaseResponse> request = new PostRequest<>(getApplicationContext(), NetService.FINISH_VERIFY_URL, BaseResponse.class, NetService.finishVerify(username, data.toJsonString()),

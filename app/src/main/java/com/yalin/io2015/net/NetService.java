@@ -20,7 +20,7 @@ public class NetService {
 
     public static String HTTP_URL;
 
-    public static final String BASE_URL = "http://192.168.10.71:8080";
+    public static final String BASE_URL = "http://192.168.1.107:8080";
 
     public static final String START_REGISTRATION_SUB = "/startRegistration";
     public static final String FINISH_REGISTRATION_SUB = "/finishRegistration";
